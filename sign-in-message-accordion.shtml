@@ -568,9 +568,12 @@ _marinTrack.trackPage();
 				<div class="col-3-5">
 					<h1>New Lexmark Rewards Program</h1>
 					<p>We&lsquo;ve made some changes to the Toner Rewards and Smart Supply programs that are designed to bring you additional savings and convenience. To learn more, please check our <a href="//www.lexmark.com/en_us/products/supplies-and-accessories/lexmark-rewards-po/faqs.html" title="FAQ" target="_blank">FAQ page</a> and don't hesitate to <a href="//www.lexmark.com/en_us/products/supplies-and-accessories/smart-supply/contact-us.html" title="Contact Us" target="_blank">Contact us</a> with any questions or concerns. To participate in this new program, you must first accept our new Lexmark Rewards Program Terms and Conditions.</p>
-					<h2>Terms &amp; Conditions</h2>
-					<div class="well">
-						<div class="scroll-area">
+					
+					<div class="set set--accordion" data-js="accordion" data-collapsable="true" data-collapse-all="true">
+						<div data-toggle="collapsable1" class="set__trigger">
+							<a href="#collapsable1">Terms &amp; Conditions<i class="set__icon"></i></a>
+						</div>
+						<div id="collapsable1" class="set__content" style="">
 							<p><strong>Enrolling in the Program means you agree to all the terms of this agreement. If you are not willing to accept them, do not enroll.</strong></p>
 							<p>	These terms and conditions form the agreement (the &quot;Agreement&quot;) between you (&quot;You&quot; or &quot;Customer&quot;) and Lexmark International, Inc. and its affiliates and subsidiaries (&quot;Company&quot;). The Program is open to legal residents of the 50 United States (and the District of Columbia) and Canada who are 18 years and older at the time of enrollment and who are not acquiring cartridges for resale. Lexmark employees and contractors (including members of their households) are not eligible to participate in this program.</p>
 							<p>	1.&nbsp;<strong>AGREEMENT TO TERMS</strong>. YOU AGREE TO READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THE LEXMARK PROGRAM (referred to herein as the &quot;Program&quot;). If you do not agree to these terms and conditions, you may not participate in the Program. Use of the Program signifies your agreement to contract with Lexmark electronically, as well as your agreement to the terms and conditions of use set forth below</p>
