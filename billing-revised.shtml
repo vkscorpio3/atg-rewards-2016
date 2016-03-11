@@ -1,0 +1,1498 @@
+<!-- https://www.lexmark.com/US/en/fef/checkout/billing.jsp?_requestid=196481 -->
+
+<!DOCTYPE html>
+
+<!--[if IE 7]><html class="ie ie7 lte9 lte8 lte7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if IE 9]><html class="ie ie9 lte9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if !IE]><!-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+
+				dir="ltr">
+
+<!--<![endif]-->
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="keywords"
+
+						content="">
+<meta name="description"
+
+						content="" />
+<title>LexmarkReturnCustomer | Lexmark United States</title>
+
+<!--[if lt IE 9]>
+
+  <script src="//www.lexmark.com/common/lxk-framework/js/libs/html5shiv.js"></script>
+
+  <![endif]-->
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, crhome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Note: This stylesheet should be built through the build process from the lxk-framework master branch -->
+
+<link rel="stylesheet" href="/common/lxk-framework/v2/css/lxk-framework.css" />
+
+<!-- Note: These stylesheets will be removed once the components have been approved and merged into master -->
+
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/pagination.css" />
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/slide-in-panel.css" />
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/visibility.css" />
+<link rel="stylesheet" href="/common/common-mce/styles/css/v2/header-footer.css" />
+<link rel="stylesheet" href="/common/common-mce/styles/css/v2/utilities.css" />
+
+<!-- Note: These JS files should be merged and minimized by the build process -->
+
+<script type="text/javascript" src="/common/lxk-framework/js/libs/require.js"></script>
+<script type="text/javascript" src="/common/lxk-framework/js/main.js"></script>
+<script type="text/javascript">
+
+   			var countryCode = '/US';
+
+   			var siteURLAppender = '/US/en';
+
+   		</script>
+<script src="/common/js/jquery-1.9.1.min.js">
+
+   	</script>
+<script type="text/javascript"
+
+				src="/common/common-mce/js/checkout.js"></script>
+<link rel="stylesheet"
+
+				href="/common/common-mce/styles/css/v2/checkout.css" />
+
+<!--[if IE]>
+
+		            			<link rel="stylesheet" href="/common/css/ie.css" type="text/css" media="all" charset="utf-8" />
+
+		        	<![endif]-->
+
+<script type="text/javascript">	
+
+									var flashvars = {};
+
+									flashvars.xmlpath = 'http://www.lexmark.com/US/en/common/flashContentXMLGenerator.jsp';
+
+									var swfFilePath = "/en_US/includes/swf/lexmark_global.swf";
+
+									var requsetURI="/fef/checkout/billing.jsp";
+
+									var contextPath = "";
+
+								</script>
+
+<!-- omniture fragment -->
+
+<script language="JavaScript" type="text/javascript"  src="/en_US/s_code.js"></script>
+<script language="JavaScript" type="text/javascript">
+
+		  if ( typeof(s)!= "undefined" && typeof(s) == "object") {
+
+		   s.pageName='billing checkout';	
+
+		  s.prop4='en_US';
+
+		 s.channel="store";				
+
+	     s.products='Laser Toner/Print Cartridge;801XK Black Extra High Yield Return Program Toner Cartridge;1;134.99,Laser Toner/Print Cartridge;CX410  CX510 Black High Yield Return Program Toner Cartridge;3;284.96999999999997,Laser Toner/Print Cartridge;Black Extra High Yield Return Program Toner Cartridge;2;715.98,Multifunction Color Laser;Lexmark CX310n;3;1497.0,Laser Toner/Print Cartridge;801SC Cyan Standard Yield Return Program Toner Cartridge;1;90.99,Laser Toner/Print Cartridge;801SK Black Standard Yield Return Program Toner Cartridge;1;62.99'; 
+
+	     s.prop1="checkout";
+
+	     s.prop2="billing";
+
+		    s.visitorID='mdattilo@lexmark.com';
+
+			  var s_code=s.t();
+
+			 if(s_code)document.write(s_code);
+
+			 }
+
+		 </script>
+</head>
+
+<!--[if lt IE 9]>
+
+	<script src="//www.lexmark.com/common/lxk-framework/js/libs/html5shiv.js"></script>
+
+	<![endif]-->
+
+<script type="text/javascript">
+ 
+	function setTypeText(number)
+	{
+		//var number = document.getElementById("creditCardNumber").value;
+		document.getElementById("fefcreditCardType").value = GetCardType(number);
+	}
+ 
+        function GetCardType(number)
+        {            
+            var re = new RegExp("^4");
+            if (number.match(re) != null)
+            	{
+        		$("#visaimage").removeClass("disabled");
+        		$("#mastercardimage").addClass("disabled");
+        		$("#discoverimage").addClass("disabled");
+        		$("#americanexpressimage").addClass("disabled");
+        		$('#cardVerificationNumber').attr('size','3');
+        		$("#cardVerificationNumber").attr('maxlength','3');
+            	return "visa";
+            	}
+ 
+            re = new RegExp("^(34|37)");
+            if (number.match(re) != null)
+            	{
+            	$("#visaimage").addClass("disabled");
+        		$("#mastercardimage").addClass("disabled");
+        		$("#discoverimage").addClass("disabled");
+        		$("#americanexpressimage").removeClass("disabled"); 
+        		$('#cardVerificationNumber').attr('size','4');
+        		$("#cardVerificationNumber").attr('maxlength','4');
+            	return "amex";
+            	}
+               
+ 
+            re = new RegExp("^5[1-5]");
+            if (number.match(re) != null)
+            	{
+            	$("#visaimage").addClass("disabled");
+        		$("#mastercardimage").removeClass("disabled");
+        		$("#discoverimage").addClass("disabled");
+        		$("#americanexpressimage").addClass("disabled");
+        		$('#cardVerificationNumber').attr('size','3');
+        		$("#cardVerificationNumber").attr('maxlength','3');
+            	return "mastercard";
+            	}
+                
+ 
+            re = new RegExp("^6011");
+            if (number.match(re) != null)
+            	{
+            	$("#visaimage").addClass("disabled");
+        		$("#mastercardimage").addClass("disabled");
+        		$("#discoverimage").removeClass("disabled");
+        		$("#americanexpressimage").addClass("disabled");
+        		$('#cardVerificationNumber').attr('size','3');
+        		$("#cardVerificationNumber").attr('maxlength','3');
+            	 return "discover";
+            	}
+               
+            $("#visaimage").addClass("disabled");
+    		$("#mastercardimage").addClass("disabled");
+    		$("#discoverimage").addClass("disabled");
+    		$("#americanexpressimage").addClass("disabled");
+    		$('#cardVerificationNumber').attr('size','3');
+    		$("#cardVerificationNumber").attr('maxlength','3');        	
+            return "visa";
+        }
+
+
+</script>
+<body dir="ltr">
+<header>
+	<div class="container">
+		<div class="row l-pad">
+			<div class="col-1">
+				<h1 class="l-pull"><a href="/US/en" title="Lexmark"><img src="/common/images/icons/lexmark-logo.png" alt="Lexmark" /></a></h1>
+				<h6 class="l-push"><img src="/common/common-mce/images/verisign.png" alt="Verisign" /></h6>
+			</div>
+		</div>
+	</div>
+	<div class="header__bottom">
+		<div class="header__bottom__left"></div>
+		<div class="header__bottom__right"></div>
+		<div class="header__bottom__image"></div>
+	</div>
+</header>
+<div class="row l-pad" role="main">
+<article>
+	<div class="row l-pad-bottom-thick">
+		<header>
+			<h1 class="col-1">Checkout</h1>
+			<div class="col-1">
+				<ol class="step">
+					<li class="step--is-complete">Sign-In</li>
+					<li class="step--is-complete">Shipping</li>
+					<li class="step--is-active">Billing</li>
+					<li>Review &amp; Place Order</li>
+				</ol>
+			</div>
+		</header>
+	</div>
+	<div class="row">
+		<div class="col-2-3 l-alley-after" id="billing">
+		<form name="populateBillingForm" action="/US/en/fef/checkout/billing.jsp?_DARGS=/fef/checkout/includes/loggedInUserBillingcontent.jsp.populateBillingForm" method="post">
+			<input name="_dyncharset" value="UTF-8" type="hidden">
+			</input>
+			<input name="_dynSessConf" value="929822720603612386" type="hidden">
+			</input>
+			<input name="selecteMethod" value="Standard" type="hidden">
+			<input name="_D:selecteMethod" value=" " type="hidden">
+			<input name="/atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddress.ownerId" value="" type="hidden">
+			<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddress.ownerId" value=" " type="hidden">
+			<input id="shipingAddressFirstName" name="shipingAddressFirstName" value="Michael" type="hidden">
+			<input name="_D:shipingAddressFirstName" value=" " type="hidden">
+			<input id="shippingAddressLastName" name="shippingAddressLastName" value="Dattilo" type="hidden">
+			<input name="_D:shippingAddressLastName" value=" " type="hidden">
+			<input id="shippingAddressPhoneNumber" name="shippingAddressPhoneNumber" value="8595130232" type="hidden">
+			<input name="_D:shippingAddressPhoneNumber" value=" " type="hidden">
+			<input id="shippingAddressAddressOne" name="shippingAddressAddressOne" value="404 CALLOWAY WHITE RD" type="hidden">
+			<input name="_D:shippingAddressAddressOne" value=" " type="hidden">
+			<input id="shippingAddressAddressTwo" name="shippingAddressAddressTwo" value="" type="hidden">
+			<input name="_D:shippingAddressAddressTwo" value=" " type="hidden">
+			<input id="shippingAddressCity" name="shippingAddressCity" value="WINCHESTER" type="hidden">
+			<input name="_D:shippingAddressCity" value=" " type="hidden">
+			<input id="shippingAddressState" name="shippingAddressState" value="KY" type="hidden">
+			<input name="_D:shippingAddressState" value=" " type="hidden">
+			<input id="shippingAddressPostalCode" name="shippingAddressPostalCode" value="40391-9771" type="hidden">
+			<input name="_D:shippingAddressPostalCode" value=" " type="hidden">
+			<input id="shippingAddressNickName" name="shippingAddressNickName" value="" type="hidden">
+			<input name="_D:shippingAddressNickName" value=" " type="hidden">
+			<input name="/atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddress.county" value="CLARK" type="hidden">
+			<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddress.county" value=" " type="hidden">
+			<input id="shippingAddressCountry" name="shippingAddressCountry" value="US" type="hidden">
+			<input name="_D:shippingAddressCountry" value=" " type="hidden">
+			<input name="moveToOrderReviewSuccessURL" value="/US/en/fef/checkout/orderreview.jsp" type="hidden">
+			<input name="_D:moveToOrderReviewSuccessURL" value=" " type="hidden">
+			<input name="moveToOrderReviewErrorURL" value="/US/en/fef/checkout/billing.jsp" type="hidden">
+			<input name="_D:moveToOrderReviewErrorURL" value=" " type="hidden">
+			<input id="saveBillingAddress" name="saveBillingAddress" value="false" type="hidden">
+			<input name="_D:saveBillingAddress" value=" " type="hidden">
+			<input id="skipCardVerification" name="skipCardVerification" value="false" type="hidden">
+			<input name="_D:skipCardVerification" value=" " type="hidden">
+			<input id="sameasshipping" name="sameasshipping" value="false" type="hidden">
+			<input name="_D:sameasshipping" value=" " type="hidden">
+			<input id="transientNumberChanged" name="transientNumberChanged" value="false" type="hidden">
+			<input name="_D:transientNumberChanged" value=" " type="hidden">
+			<input type="hidden" name="pageparam" id="pageparam" value="goback"/>
+			<input type="hidden" name="locale" id="locale" value="en_US"/>
+			
+			<!-- This droplet is for prepopulating the values, when anonymous user has alredy shipping and billing info in Order  -->
+			
+			<section class="l-pad">
+				<div class="row">
+					<div class="col-1">
+						<h2>Billing</h2>
+					</div>
+					<div class="col-1">
+						<h3>Payment Methods</h3>
+						<div class="row">
+							<div class="col-1">
+								<table class="table table--responsive">
+									<tbody>
+										<tr>
+											<input type="hidden" id='cardTypeusercc34430037' name='cardTypeusercc34430037' value='discover'/>
+											<td class="form__radio" data-label="Payment Method"><div class="form__field form__field--radio">
+													<input name="paymentMethod" type="radio"  value='usercc34430037' id='paymentMethod0' onchange="javascript:setfefpaymentMethod();return true;" data-js="customInput">
+													</input>
+													<label for='paymentMethod0'> <strong>discover</strong> ending in 8004 </label>
+												</div></td>
+											<td class="td--no-header"></td>
+											<td data-label="expires on">07/2020</td>
+										</tr>
+										<tr>
+											<input type="hidden" id='cardTypeusercc20003' name='cardTypeusercc20003' value='mastercard'/>
+											<td class="form__radio" data-label="Payment Method"><div class="form__field form__field--radio">
+													<input name="paymentMethod" type="radio"  value='usercc20003' id='paymentMethod1' onchange="javascript:setfefpaymentMethod();return true;" data-js="customInput">
+													</input>
+													<label for='paymentMethod1'> <strong>mastercard</strong> ending in 4396 </label>
+												</div></td>
+											<td class="td--no-header"></td>
+											<td data-label="expires on">03/2014</td>
+										</tr>
+										<tr id="credit-id-secure">
+											<td class="td--no-header" colspan="3"><div class="row">
+													<div class="col-1-2 l-alley-after">
+														<div class="form__field form__field--required">
+															<label for="csc">Card Security Code</label>
+															<input id="returnCardVerificationNumber" maxlength="3" name="returnCardVerificationNumber" value="" type="password" size="3">
+															<input name="_D:returnCardVerificationNumber" value=" " type="hidden">
+														</div>
+														<p class="description"> Your card's security code is used to reduce fraud for card-not-present transactions and is not stored post-transaction per <a href="https://www.pcisecuritystandards.org/security_standards/" target="_blank" title="PCI DSS compliance">PCI DSS</a>.</p>
+														</p>
+													</div>
+													
+													<!-- financialinfo VATID logic starts --> 
+													
+													<!-- GetCountryItemDroplet END --> 
+													
+													<!-- financialinfo VATID logic ends -->
+													
+													<div class="col-1-2 l-alley-before">
+														<div class="media">
+															<div class="media__visual"> <img src="/common/common-mce/images/ccCSC.png" alt="credit card CSC example"> </div>
+															<div class="media__body"> <strong>MasterCard, Visa, Discover:</strong>
+																<p>The code is the final group of numbers printed on the back signature panel of the card.</p>
+															</div>
+														</div>
+														<div class="media">
+															<div class="media__visual"> <img src="/common/common-mce/images/amexCSC.png" alt="amex credit card CSC example"> </div>
+															<div class="media__body"> <strong>American Express:</strong>
+																<p>A four-digit code printed on the front side of the card above the credit card number.</p>
+															</div>
+														</div>
+													</div>
+												</div></td>
+										</tr>
+										<tr>
+											<td class="form__radio" data-label="Payment Method"><div class="form__field form__field--radio">
+													<input type="radio" name="paymentMethod" value="creditCardPayment" id="new-credit-info" onchange="javascript:setfefpaymentMethod();return true;" data-js="customInput" />
+													<label for="new-credit-info" class="form__field"> <strong>New Credit Card</strong> </label>
+												</div></td>
+											<td class="td--no-header"></td>
+											<td class="td--no-header"></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!-- End of IsEmpty Droplet  --> 
+						
+						<!-- including the paymentcontent -->
+						
+						<div class="row" id="new-credit">
+							<div class="col-1-2 l-alley-after">
+								<div class="form__field form__field--radio form__field--required">
+									<label for="creditCardHolderName"> Name on Card</label>
+									<input id="creditCardHolderName" maxlength="30" name="creditCardHolderName" value="Michael J Dattilo" class="input required cc-name inputtxt2" type="text" size="30">
+									<input name="_D:creditCardHolderName" value=" " type="hidden">
+								</div>
+								<input id="fefcreditCardType" name="fefcreditCardType" value="discover" type="hidden">
+								<input name="_D:fefcreditCardType" value=" " type="hidden">
+								<div class="form__field form__field--radio form__field--required">
+									<label for="cc-number"> Card Number</label>
+									<input id="creditCardNumber" maxlength="16" name="creditCardNumber" value="" class="input required cc-number inputtxt2" type="text" autocomplete="off" onchange="setTypeText(this.value);" size="30">
+									<input name="_D:creditCardNumber" value=" " type="hidden">
+								</div>
+								<div> <img id="visaimage" class="disabled" alt="visa" src="/common/common-mce/images/visa.png" /> <img id="mastercardimage" class="disabled" alt="Mastercard" src="/common/common-mce/images/mcard.png" /> <img id="discoverimage" class="disabled" alt="Discover" src="/common/common-mce/images/discover.png" /> <img id="americanexpressimage" class="disabled" alt="American Express" src="/common/common-mce/images/amexpress.png" /> </div>
+								<div id="divexpirationYear" class=" form__field form__field--required">
+									<label for="expiration">Expiration Date</label>
+									<div class="expiration form__field form__field--required">
+										<input name="_D:creditCardExpirationMonth" value=" " type="hidden">
+										</input>
+										<select id="creditCardExpirationMonth" name="creditCardExpirationMonth" class="month select_month">
+											<option value="Mo"> Month
+											<option selected value="01">01
+											<option value="02">02
+											<option value="03">03
+											<option value="04">04
+											<option value="05">05
+											<option value="06">06
+											<option value="07">07
+											<option value="08">08
+											<option value="09">09
+											<option value="10">10
+											<option value="11">11
+											<option value="12">12
+										</select>
+										<p class="description">Month</p>
+									</div>
+									<div class="expiration form__field form__field--required ">
+										<input name="_D:creditCardExpirationYear" value=" " type="hidden">
+										</input>
+										<select id="creditCardExpirationYear" name="creditCardExpirationYear" class="year">
+											<option selected="selected" value="Year">Year</option>
+											<option selected value="2016"> 2016</option>
+											<option  value="2017"> 2017</option>
+											<option  value="2018"> 2018</option>
+											<option  value="2019"> 2019</option>
+											<option  value="2020"> 2020</option>
+											<option  value="2021"> 2021</option>
+											<option  value="2022"> 2022</option>
+											<option  value="2023"> 2023</option>
+											<option  value="2024"> 2024</option>
+											<option  value="2025"> 2025</option>
+											<option  value="2026"> 2026</option>
+											
+											<!-- To be made dynamic -->
+											
+										</select>
+										<p class="description">Year</p>
+									</div>
+								</div>
+								
+								<!-- if the user is logged in user and to add new credit card then this check box will be appeared --> 
+								
+								<!-- the system shouldnot allow user to save the credit card in profile if the user is already having max no of credit cards in his account-->
+								
+								<div class="form__field form__field--checkbox">
+									<input id="saveCreditCard" data-js="customInput" name="saveCreditCard" value="true" class="checkbox" type="checkbox">
+									<input name="_D:saveCreditCard" value=" " type="hidden">
+									<label for="saveCreditCard">Save this credit card for future purchases</label>
+									
+									<!-- dsp:input type="hidden" bean="ShippingGroupFormHandler.saveCreditCard" id="saveCreditCardHidden" name="saveCreditCardHidden" value="false"/>
+
+							<input type="checkbox" name="saveCreditCardCheck" id="saveCreditCardCheck" iclass="checkbox" onchange="javascript:document.getElementById('saveCreditCardHidden').value=this.checked;return true;" data-js="customInput"/>
+
+							<label for="saveCreditCardCheck">Save this credit card for future purchases</label>  --> 
+									
+								</div>
+							</div>
+							<div class="col-1-2 l-alley-before">
+								<div class="form__field form__field--required">
+									<label for="cardVerificationNumber"> Card Security Code</label>
+									<input id="cardVerificationNumber" maxlength="3" name="cardVerificationNumber" value="" class="inputtxt" type="password" size="4">
+									<input name="_D:cardVerificationNumber" value=" " type="hidden">
+								</div>
+								<p class="description"> Your card's security code is used to reduce fraud for card-not-present transactions and is not stored post-transaction per <a href="https://www.pcisecuritystandards.org/security_standards/" target="_blank" title="PCI DSS compliance">PCI DSS</a>.</p>
+								</p>
+								
+								<!-- financialinfo VATID logic starts --> 
+								
+								<!-- GetCountryItemDroplet END --> 
+								
+								<!-- financialinfo VATID logic ends -->
+								
+								<div class="media">
+									<div class="media__visual"> <img src="/common/common-mce/images/ccCSC.png" alt="credit card CSC example"> </div>
+									<div class="media__body"> <strong>MasterCard, Visa, Discover:</strong>
+										<p>The code is the final group of numbers printed on the back signature panel of the card.</p>
+									</div>
+								</div>
+								<div class="media">
+									<div class="media__visual"> <img src="/common/common-mce/images/amexCSC.png" alt="amex credit card CSC example"> </div>
+									<div class="media__body"> <strong>American Express:</strong>
+										<p>A four-digit code printed on the front side of the card above the credit card number.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="alert alert--info alert--is-basic" data-js="alert">
+							<div class="alert__visual l-alley-both"><img src="/common/common-mce/images/verisign.png" alt="verisign"></div>
+							<strong>Your order is safe and secure.</strong>
+							<p>All transactions performed with this website are secure; indicated by the lock icon in your browser window.</p>
+						</div>
+					</div>
+					<input type="hidden" name="fefPaymentMethod" id="fefPaymentMethod" value=""/>
+				</div>
+				<div class="col-1">
+					<h3>Billing Address</h3>
+					<table class="table table--even" style="margin-bottom:0;">
+						<tbody>
+							<tr>
+								<td class="form__radio"><div class="form__field form__field--radio">
+										<input type="radio" value="" id="checkSameasAhipping" name="billingAddress" onchange="javascript:copyShippingToBilling();return true;" data-js="customInput">
+										<label for="checkSameasAhipping" class="form__field"><span></span> <strong>Same as Shipping</strong> 404 CALLOWAY WHITE RD,WINCHESTER, KY 40391-9771 </label>
+									</div></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="form__radio"><input type="hidden" id="editNickName0" value="Home"/>
+									<input type="hidden" id="editFirstName0" value="Michael"/>
+									<input type="hidden" id="editLastName0" value="Dattilo"/>
+									<input type="hidden" id="editPhoneNumber0" value="8595565301"/>
+									<input type="hidden" id="editAddress10" value="404 CALLOWAY WHITE RD"/>
+									<input type="hidden" id="editAddress20" value=""/>
+									<input type="hidden" id="editCity0" value="WINCHESTER"/>
+									<input type="hidden" id="editState0" value="KY"/>
+									<input type="hidden" id="editOwnerId0" value="144214748090"/>
+									<div class="form__field form__field--radio">
+										<input name=billingAddress type="radio"  value='144214748090' id='optionsRadios0' data-js="customInput" onchange="javascript:copyShippingToBilling();return true;"/>
+										<label for='optionsRadios0' class="form__field"><span></span> <strong>Home</strong> 404 CALLOWAY WHITE RD&nbsp;
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											WINCHESTER,&nbsp;KY&nbsp;
+											<input type="hidden" id="editZip0" value="40391-9771"/>
+											40391-9771&nbsp; </label>
+									</div></td>
+								<td><a href="#" title="Edit This Address" onclick="javascript:editAddress(this.id);return true;" id='0'>edit</a></td>
+							</tr>
+							<tr>
+								<td class="form__radio"><input type="hidden" id="editNickName1" value="Work"/>
+									<input type="hidden" id="editFirstName1" value="Mike"/>
+									<input type="hidden" id="editLastName1" value="Dattilo"/>
+									<input type="hidden" id="editPhoneNumber1" value="8592323445"/>
+									<input type="hidden" id="editAddress11" value="740 New Cirlce Rd."/>
+									<input type="hidden" id="editAddress21" value="Building 001, 8120"/>
+									<input type="hidden" id="editCity1" value="Lexington"/>
+									<input type="hidden" id="editState1" value="KY"/>
+									<input type="hidden" id="editOwnerId1" value="147890990"/>
+									<div class="form__field form__field--radio">
+										<input name=billingAddress type="radio"  value='147890990' id='optionsRadios1' data-js="customInput" onchange="javascript:copyShippingToBilling();return true;"/>
+										<label for='optionsRadios1' class="form__field"><span></span> <strong>Work</strong> 740 New Cirlce Rd.&nbsp;
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											, Building 001, 8120&nbsp;
+											
+											
+											
+											
+											
+											Lexington,&nbsp;KY&nbsp;
+											<input type="hidden" id="editZip1" value="40550"/>
+											40550&nbsp; </label>
+									</div></td>
+								<td><a href="#" title="Edit This Address" onclick="javascript:editAddress(this.id);return true;" id='1'>edit</a></td>
+							</tr>
+							
+							<!--Foreach Droplet Ends Here -->
+							
+						<input type="hidden" name="sameasshipping" id="sameasshipping" class="checkbox"/>
+						<tr>
+							<td><div class="form__field form__field--radio">
+									<input type="radio" value="NEW" id=fefnewAddress name="billingAddress"   onchange="javascript:copyShippingToBilling();return true;" data-js="customInput">
+									<label for="fefnewAddress" class="form__field"><span></span> <strong>New Billing Address</strong> </label>
+								</div></td>
+							<td></td>
+						</tr>
+						</tbody>
+						
+					</table>
+				</div>
+				<div class="col-1" id="new-address"> 
+					
+					<!-- to hide same as shipping section if the shipping section is absent -->
+					
+					<div class="row">
+						<div class="col-1-2 l-alley-after">
+							<div class="form__field form__field--required">
+								<label for="fname">First Name</label>
+								<input id="billingAddressFirstName" maxlength="40" name="billingAddressFirstName" value="Michael" type="text" size="30">
+								<input name="_D:billingAddressFirstName" value=" " type="hidden">
+							</div>
+							<div class="form__field form__field--required">
+								<label for="lname">Last Name</label>
+								<input id="billingAddressLastName" maxlength="40" name="billingAddressLastName" value="Dattilo" type="text" size="30">
+								<input name="_D:billingAddressLastName" value=" " type="hidden">
+							</div>
+							<div class="form__field form__field--required">
+								<label for="phone"> Phone Number</label>
+								<input id="billingAddressPhoneNumber" maxlength="40" name="billingAddressPhoneNumber" value="8595130232" class="input required" type="text">
+								<input name="_D:billingAddressPhoneNumber" value=" " type="hidden">
+							</div>
+							<p class="description"> Lexmark International, Inc. requires your phone number should we experience any difficulties with your shipment. Your number will not be sold to a third party. </p>
+						</div>
+						<!-- end contact information col -->
+						
+						<div class="col-1-2 l-alley-before">
+							<div class="form__field form__field--required">
+								<label for="address1">Address Line 1</label>
+								<input id="billingAddressAddressOne" maxlength="35" name="billingAddressAddressOne" value="404 CALLOWAY WHITE RD" class="input required" onkeyup="moveOnMax(billingAddressAddressOne,billingAddressAddressTwo,'billingAddressLine1');" type="text" size="30">
+								<input name="_D:billingAddressAddressOne" value=" " type="hidden">
+								<p class="error" id="billingAddressLine1" style="display:none;">! Exceeded maximum characters for Address Line 1.</p>
+							</div>
+							<div class="form__field">
+								<label for="address2">Address Line 2</label>
+								<input id="billingAddressAddressTwo" maxlength="35" name="billingAddressAddressTwo" value="" class="input" onkeyup="moveOnMax(billingAddressAddressTwo,null,'billingAddressLine2');" type="text" size="30">
+								<input name="_D:billingAddressAddressTwo" value=" " type="hidden">
+								<p class="error" id="billingAddressLine2" style="display:none;">! Exceeded maximum characters for Address Line 2.</p>
+							</div>
+							<div class="form__field form__field--required">
+								<label for="city">City</label>
+								<input id="billingAddressCity" maxlength="25" name="billingAddressCity" value="WINCHESTER" class="input required" type="text">
+								<input name="_D:billingAddressCity" value=" " type="hidden">
+							</div>
+							
+							<!--  state field is available only for the countries which have sub divisions --> 
+							
+							<!--  country sub division type --> 
+							
+							<!--  checking country subdivision is optional or not -->
+							
+							<div class="form__field form__field--required">
+								<label for="shippingAddressState"> State </label>
+								<input name="_D:billingAddressState" value=" " type="hidden">
+								</input>
+								<select id="billingAddressState" name="billingAddressState" class="input required">
+									<option value=""> Select State
+									<option value="AL"> Alabama
+									<option value="AK"> Alaska
+									<option value="AZ"> Arizona
+									<option value="AR"> Arkansas
+									<option value="AA"> Armed Forces America
+									<option value="AE"> Armed Forces Europe
+									<option value="AP"> Armed Forces Pacific
+									<option value="CA"> California
+									<option value="CO"> Colorado
+									<option value="CT"> Connecticut
+									<option value="DE"> Delaware
+									<option value="DC"> District of Columbia
+									<option value="FL"> Florida
+									<option value="GA"> Georgia
+									<option value="GU"> Guam
+									<option value="HI"> Hawaii
+									<option value="ID"> Idaho
+									<option value="IL"> Illinois
+									<option value="IN"> Indiana
+									<option value="IA"> Iowa
+									<option value="KS"> Kansas
+									<option selected value="KY"> Kentucky
+									<option value="LA"> Louisiana
+									<option value="ME"> Maine
+									<option value="MD"> Maryland
+									<option value="MA"> Massachusetts
+									<option value="MI"> Michigan
+									<option value="MN"> Minnesota
+									<option value="MS"> Mississippi
+									<option value="MO"> Missouri
+									<option value="MT"> Montana
+									<option value="NE"> Nebraska
+									<option value="NV"> Nevada
+									<option value="NH"> New Hampshire
+									<option value="NJ"> New Jersey
+									<option value="NM"> New Mexico
+									<option value="NY"> New York
+									<option value="NC"> North Carolina
+									<option value="ND"> North Dakota
+									<option value="OH"> Ohio
+									<option value="OK"> Oklahoma
+									<option value="OR"> Oregon
+									<option value="PA"> Pennsylvania
+									<option value="PR"> Puerto Rico
+									<option value="RI"> Rhode Island
+									<option value="SC"> South Carolina
+									<option value="SD"> South Dakota
+									<option value="TN"> Tennessee
+									<option value="TX"> Texas
+									<option value="UT"> Utah
+									<option value="VT"> Vermont
+									<option value="VI"> Virgin Islands
+									<option value="VA"> Virginia
+									<option value="WA"> Washington
+									<option value="WV"> West Virginia
+									<option value="WI"> Wisconsin
+									<option value="WY"> Wyoming
+								</select>
+							</div>
+							
+							<!-- GetSubDivisionsForCountryDroplet END -->
+							
+							<div class="form__field form__field--required">
+								<label for="zip"> Zip Code </label>
+								<input id="billingAddressPostalCode" maxlength="12" name="billingAddressPostalCode" value="40391-9771" class="input required" type="text">
+								<input name="_D:billingAddressPostalCode" value=" " type="hidden">
+							</div>
+							<div class="form__field form__field--checkbox">
+								<input type="checkbox" class="checkbox" name="checkBillingAddress" id="checkBillingAddress" data-js="customInput" onclick="javascript:disableenable9();" />
+								<label for="checkBillingAddress">Save me for the future</label>
+							</div>
+							<div id="billingAddressNickNameFragment" style="display: none;">
+								<div class="form__field form__field--required">
+									<label for="nickname">Address Nickname</label>
+									<input id="billingAddressNickName" maxlength="40" name="billingAddressNickName" value="" type="text" size="30">
+									<input name="_D:billingAddressNickName" value=" " type="hidden">
+									<p class="description">(Give your address a nickname that is easy to remember.)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<input id="billingaddressOwnerId" maxlength="40" name="billingaddressOwnerId" value="" type="hidden" size="30">
+					<input name="_D:billingaddressOwnerId" value=" " type="hidden">
+					<input type="hidden" name="fefBillingAddress" id="fefBillingAddress" value=""/>
+					<input type="hidden" name="populatebillingAddressid" id="populatebillingAddressid" 
+
+		 value=""/>
+					<script>
+
+
+
+	  
+
+	function disableenable9(){
+
+		if(document.getElementById("checkBillingAddress").checked == true){
+
+			document.getElementById("fefSaveBillAddress").value=true;
+
+			if (document.getElementById("billingAddressNickNameFragment") != null) {
+
+				document.getElementById("billingAddressNickNameFragment").style.display = 'block';
+
+			}
+
+		}
+
+		else {
+
+			document.getElementById("saveBillingAddress").value=false;
+
+			if (document.getElementById("billingAddressNickNameFragment") != null) {
+
+			  document.getElementById("billingAddressNickNameFragment").style.display = 'none';
+
+			}
+
+			var saveCreditCardCheckBoxObj = document.getElementById("saveCreditCard");
+
+			if(saveCreditCardCheckBoxObj != null) {
+
+				saveCreditCardCheckBoxObj.checked=false
+
+			}
+
+
+
+		}		
+
+  }
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	  function uncheckSameAsShippingCheckBox() {
+
+			if (document.getElementById('checkSameasAhipping') != null) {
+
+			  document.getElementById('checkSameasAhipping').checked=false;
+
+			}
+
+			if (document.getElementById('checkSameasAhippingFromReadable') != null) {
+
+			  document.getElementById('checkSameasAhippingFromReadable').checked=false;
+
+			}
+
+			document.getElementById('sameasshipping').value=false;
+
+		  } 
+
+	</script> 
+				</div>
+				<hr />
+				<div class="col-1">
+					<input id="fefBillingOwnerId" name="/lexmark/util/LexSessionComponent.billingStatus" value="NEW" type="hidden">
+					<input name="_D:/lexmark/util/LexSessionComponent.billingStatus" value=" " type="hidden">
+					<input id="fefCreditCardId" name="/lexmark/util/LexSessionComponent.paymentStatus" value="usercc20002" type="hidden">
+					<input name="_D:/lexmark/util/LexSessionComponent.paymentStatus" value=" " type="hidden">
+					<input id="fefBillingEditable" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.billingEditable" value="false" type="hidden">
+					<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.billingEditable" value=" " type="hidden">
+					<input id="fefSaveBillAddress" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.saveBillingAddress" value="false" type="hidden">
+					<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.saveBillingAddress" value=" " type="hidden">
+					<input id="fefPaymentType" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.paymentType" value="" type="hidden">
+					<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.paymentType" value=" " type="hidden">
+					<script>
+
+
+
+if(document.getElementById("fefSaveBillAddress").value == 'true') {
+
+	   document.getElementById("checkBillingAddress").checked=true;   
+
+	   if (document.getElementById("billingAddressNickNameFragment") != null) {
+
+	     document.getElementById("billingAddressNickNameFragment").style.display = 'block';              
+
+	   } else {
+
+	     document.getElementById("checkBillingAddress").checked=false; 
+
+	     document.getElementById("fefSaveBillAddress").value=false; 
+
+	   }  
+
+	 }
+
+
+
+</script> 
+				</div>
+				<hr />
+				<input name="/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToReview" value="submit" type="hidden">
+				<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToReview" value=" " type="hidden">
+				<input type="hidden" name="handleAction" value="" id="handleAction"/>
+				<div class="col-1 l-pad-vertical">
+					<button onclick="javascript:return formsubmit();" class="btn l-push">Use this Payment Type</button>
+				</div>
+				</div>
+			</section>
+			<script language="javascript">
+
+require(["jquery"], function($) {
+
+	$(document).ready(function() {
+
+		setTypeText(document.getElementById("creditCardNumber").value);
+
+		$("#new-address").hide();
+
+		var sameasshipping=document.getElementById("sameasshipping").value;
+
+		var elem=document.getElementsByName("billingAddress");
+
+		var fefOwnerId = document.getElementById("fefBillingOwnerId").value;		
+
+		var fefCreditCard = document.getElementById("fefCreditCardId").value;	
+
+		var creditcards = document.getElementsByName("paymentMethod");
+
+		if(elem.length > 0)
+
+			{
+
+			len=elem.length-1;
+
+			for(i=0; i<=len; i++)
+
+			{
+
+				elem[i].checked=false;
+
+				$(elem[i]).siblings("label[for="+elem[i].id+ "]").removeClass("form__field--is-checked");
+
+			}
+
+			
+
+			if(sameasshipping == "true")
+
+				{
+
+				elem[0].checked="true";
+
+				$(elem[0]).siblings("label[for="+elem[0].id+ "]").addClass("form__field--is-checked");
+
+				
+
+				}
+
+			else if(fefOwnerId == "NEW")
+
+				{
+
+				  elem[len].checked="true";
+
+				  $(elem[len]).siblings("label[for="+elem[len].id+ "]").addClass("form__field--is-checked");
+
+				}
+
+			else
+
+				{
+
+				for(i=0; i<=len; i++)
+
+				{	
+
+					if(fefOwnerId != null && fefOwnerId != "" && fefOwnerId == elem[i].value)
+
+						{  
+
+						elem[i].checked=true;
+
+						$(elem[i]).siblings("label[for="+elem[i].id+ "]").addClass("form__field--is-checked");
+
+						   break;
+
+						}
+
+					}
+
+				}
+
+		     if($('input[name=billingAddress]:checked').val() == "NEW")
+
+				{
+
+				 $("#new-address").show();
+
+				}
+
+			}
+
+		
+
+		if(creditcards.length > 0)
+
+		{
+
+		$("#new-credit").hide();
+
+		$("#credit-id-secure").hide();
+
+		
+
+		len=creditcards.length-1;
+
+		for(i=0; i<=len; i++)
+
+		{
+
+			creditcards[i].checked=false;
+
+			$(creditcards[i]).siblings("label[for="+creditcards[i].id+ "]").removeClass("form__field--is-checked");
+
+		}
+
+		
+
+
+
+		if(fefCreditCard == "creditCardPayment")
+
+			{
+
+			creditcards[len].checked="true";
+
+			$(creditcards[len]).siblings("label[for="+creditcards[len].id+ "]").addClass("form__field--is-checked");
+
+
+
+			}
+
+		else
+
+			{
+
+			for(i=0; i<=len; i++)
+
+			{	
+
+				if(fefCreditCard != null && fefCreditCard != "" && fefCreditCard == creditcards[i].value)
+
+					{
+
+					if(document.getElementById("cardType"+fefCreditCard).value == "amex" || document.getElementById("cardType"+fefCreditCard).value == "americanExpress") {
+
+						$('#returnCardVerificationNumber').attr('size','4');
+
+						$("#returnCardVerificationNumber").attr('maxlength','4');
+
+					}
+
+					else
+
+					{
+
+					$('#returnCardVerificationNumber').attr('size','3');
+
+					$("#returnCardVerificationNumber").attr('maxlength','3');
+
+					}
+
+					creditcards[i].checked=true;
+
+					$(creditcards[i]).siblings("label[for="+creditcards[i].id+ "]").addClass("form__field--is-checked");
+
+					   break;
+
+					}
+
+				}
+
+			}
+
+		if($('input[name=paymentMethod]:checked').val() == "creditCardPayment")
+
+			{
+
+			   $("#new-credit").show();
+
+				$("#visa-id-secure").hide();
+
+				$("#credit-id-secure").hide();
+
+				
+
+			}
+
+		else if($('input[name=paymentMethod]:checked').val() == "bankTransferPayment")
+
+			{
+
+			 $("#new-credit").hide();
+
+				$("#visa-id-secure").hide();
+
+				$("#credit-id-secure").hide();
+
+			}
+
+		else
+
+			{
+
+			$("#new-credit").hide();
+
+			$("#visa-id-secure").show();
+
+			
+
+			$("#credit-id-secure").show();
+
+			}
+
+		}
+
+		
+
+		
+
+	});	
+
+	require(["/common/lxk-framework/js/custom-input.js"], function() {});
+
+});
+
+
+
+
+
+
+
+var continueSnB = 'false';
+
+function formsubmit() {
+
+	if(checkTermsNConditions())
+
+		{
+
+		if(document.getElementById("checkBillingAddress").checked)
+
+			document.getElementById("fefSaveBillAddress").value=true;
+
+		else
+
+			document.getElementById("fefSaveBillAddress").value=false;
+
+		if(typeof $('input[name=billingAddress]:checked') && typeof $('input[name=billingAddress]:checked').val() != "undefined" )
+
+		document.getElementById("fefBillingOwnerId").value = $('input[name=billingAddress]:checked').val();
+
+		if(typeof $('input[name=paymentMethod]:checked') && typeof $('input[name=paymentMethod]:checked').val() != "undefined" )
+
+		document.getElementById("fefCreditCardId").value = $('input[name=paymentMethod]:checked').val();
+
+		if(typeof $('input[name=billingAddress]:checked') && typeof $('input[name=billingAddress]:checked').val() != "undefined" &&  $('input[name=billingAddress]:checked').val() != "NEW")
+
+		{	  
+
+		   document.getElementById("billingAddressFirstName").value="";
+
+		   document.getElementById("billingAddressLastName").value="";
+
+		   document.getElementById("billingAddressPhoneNumber").value="";
+
+		   document.getElementById("billingAddressAddressOne").value="";
+
+		   document.getElementById("billingAddressAddressTwo").value="";
+
+		   document.getElementById("billingAddressCity").value="";
+
+		   document.getElementById("billingAddressState").value="";
+
+		   document.getElementById("billingAddressPostalCode").value="";
+
+		   document.getElementById("billingAddressNickName").value="";
+
+		   document.getElementById("billingaddressOwnerId").value="";
+
+		   document.getElementById("checkBillingAddress").checked=false;
+
+		}
+
+		if(typeof $('input[name=paymentMethod]:checked') && typeof $('input[name=paymentMethod]:checked').val() != "undefined" && $('input[name=paymentMethod]:checked').val() != "creditCardPayment")
+
+			{
+
+			   document.getElementById("creditCardHolderName").value="";
+
+			   document.getElementById("creditCardNumber").value="";
+
+			   document.getElementById("creditCardExpirationMonth").value="";
+
+			   document.getElementById("creditCardExpirationYear").value="";
+
+			   document.getElementById("cardVerificationNumber").value=document.getElementById("returnCardVerificationNumber").value;
+
+			   document.getElementById("saveCreditCard").checked=false;
+
+			}
+
+		else
+
+			{			
+
+			document.getElementById("returnCardVerificationNumber").value=document.getElementById("cardVerificationNumber").value;
+
+			}		
+
+
+
+		sendEventinCheckout('Use this Payment Type');
+
+	   	document.populateBillingForm.submit();
+
+	   	return true;
+
+		}
+
+	return false;
+
+	
+
+}
+
+
+
+/*Usage at Shippingandbilling --> billing section: This function is used to copy the shippingaddress copies to billing section*/
+
+function copyShippingToBilling() {
+
+	if(document.getElementById('checkSameasAhipping') != null && document.getElementById('checkSameasAhipping').checked){
+
+			document.getElementById('sameasshipping').value = true;
+
+			
+
+		} else {
+
+			document.getElementById('sameasshipping').value = false;      			
+
+		}
+
+	var selectedValue=$('input[name=billingAddress]:checked').val();
+
+	if(selectedValue == "NEW")
+
+		{	  
+
+		   document.getElementById("billingAddressFirstName").value="";
+
+		   document.getElementById("billingAddressLastName").value="";
+
+		   document.getElementById("billingAddressPhoneNumber").value="";
+
+		   document.getElementById("billingAddressAddressOne").value="";
+
+		   document.getElementById("billingAddressAddressTwo").value="";
+
+		   document.getElementById("billingAddressCity").value="";
+
+		   document.getElementById("billingAddressState").value="";
+
+		   document.getElementById("billingAddressPostalCode").value="";
+
+		   document.getElementById("billingAddressNickName").value="";
+
+		   document.getElementById("billingaddressOwnerId").value="";
+
+		   document.getElementById("checkBillingAddress").checked=false;
+
+		   $("#checkBillingAddress").siblings("label[for=checkBillingAddress]").removeClass("form__field--is-checked");
+
+		   $("#new-address").show();
+
+		}
+
+	else
+
+		{
+
+		$("#new-address").hide();
+
+		   document.getElementById("fefBillingEditable").value=false;
+
+		   document.getElementById("fefSaveBillAddress").value=false;
+
+		}
+
+}
+
+
+
+function setfefpaymentMethod()
+
+{	
+
+var selectedValue=$('input[name=paymentMethod]:checked').val();
+
+if(selectedValue == "creditCardPayment")
+
+	{	  
+
+	   document.getElementById("creditCardHolderName").value="";
+
+	   document.getElementById("cardVerificationNumber").value="";
+
+	   document.getElementById("creditCardNumber").value="";
+
+	   document.getElementById("creditCardExpirationMonth").value="";
+
+	   document.getElementById("creditCardExpirationYear").value="";
+
+	   document.getElementById("saveCreditCard").checked=false;
+
+	   $("#saveCreditCard").siblings("label[for=saveCreditCard]").removeClass("form__field--is-checked");
+
+	   $("#new-credit").show();
+
+		$("#visa-id-secure").hide();
+
+		$("#credit-id-secure").hide();
+
+	}
+
+else if(selectedValue == "bankTransferPayment")
+
+	{
+
+	$("#new-credit").hide();
+
+	$("#visa-id-secure").hide();
+
+	$("#credit-id-secure").hide();
+
+	}
+
+else
+
+	{	
+
+	$("#new-credit").hide();
+
+	$("#visa-id-secure").show();
+
+	$("#credit-id-secure").show();
+
+	if(document.getElementById("cardType"+selectedValue).value == "amex") {
+
+		$('#returnCardVerificationNumber').attr('size','4');
+
+		$("#returnCardVerificationNumber").attr('maxlength','4');
+
+	}
+
+	else
+
+		{
+
+		$('#returnCardVerificationNumber').attr('size','3');
+
+		$("#returnCardVerificationNumber").attr('maxlength','3');
+
+		}
+
+	document.getElementById("returnCardVerificationNumber").value="";
+
+	}
+
+}
+
+
+
+function editAddress(intValue)
+
+{
+
+	   var elem=document.getElementsByName("billingAddress");
+
+		len=elem.length-1;
+
+		for(i=0; i<=len; i++)
+
+		{			  
+
+			elem[i].checked=false;
+
+			$(elem[i]).siblings("label[for="+elem[i].id+ "]").removeClass("form__field--is-checked");
+
+			
+
+		}
+
+		elem[len].checked=true;
+
+		$(elem[len]).siblings("label[for="+elem[len].id+ "]").addClass("form__field--is-checked");
+
+	   document.getElementById("billingAddressFirstName").value=document.getElementById("editFirstName"+intValue).value;
+
+	   document.getElementById("billingAddressLastName").value=document.getElementById("editLastName"+intValue).value;
+
+	   document.getElementById("billingAddressPhoneNumber").value=document.getElementById("editPhoneNumber"+intValue).value;
+
+	   document.getElementById("billingAddressAddressOne").value=document.getElementById("editAddress1"+intValue).value;
+
+	   document.getElementById("billingAddressAddressTwo").value=document.getElementById("editAddress2"+intValue).value;
+
+	   document.getElementById("billingAddressCity").value=document.getElementById("editCity"+intValue).value;
+
+	   document.getElementById("billingAddressState").value=document.getElementById("editState"+intValue).value;
+
+	   document.getElementById("billingAddressPostalCode").value=document.getElementById("editZip"+intValue).value;
+
+	   document.getElementById("checkBillingAddress").checked=true;
+
+	   $("#checkBillingAddress").siblings("label[for=checkBillingAddress]").addClass("form__field--is-checked");
+
+	   document.getElementById("billingAddressNickName").value=document.getElementById("editNickName"+intValue).value;
+
+	   document.getElementById("billingaddressOwnerId").value=document.getElementById("editOwnerId"+intValue).value;		
+
+	   document.getElementById("fefBillingEditable").value=true;
+
+	   document.getElementById("fefSaveBillAddress").value=true;
+
+	  // document.getElementById("shippingAddressNickName").disabled=true;
+
+		$("#new-address").show();
+
+	   
+
+	   
+
+}
+
+
+
+	var continueSnB = 'false';
+
+	function checkTermsNConditions() {
+
+	   	var siteRegion = '';
+
+	   	var countryGroup = '';
+
+	   	var country = 'US';
+
+	    if(siteRegion=="EMEA" && countryGroup=="GroupA"){
+
+	   		if (country!="IT"){
+
+	   			if(document.getElementById('terms').checked){
+
+	   				document.getElementById('termsError').innerHTML = '';
+
+	   				document.getElementById('termsError').style.visibility  = "hidden";
+
+	   				return true;
+
+	   			}
+
+	   			else{
+
+	   				document.getElementById('termsError').style.visibility  = "visible";
+
+	   				document.getElementById('termsError').innerHTML = '<i class="icon icon--ui icon--error-small" ></i>Please accept the terms and conditions to proceed with your order.';
+
+	   				return false;
+
+	   			}
+
+	   		}
+
+		 	else{
+
+		 	   	if(document.getElementById('terms').checked && document.getElementById('italy2ndcheckbox').checked)
+
+		 	   		return true;
+
+				if(document.getElementById('terms').checked){
+
+					document.getElementById('termsError').innerHTML = '';
+
+					document.getElementById('termsError').style.visibility  = "hidden";
+
+				}
+
+				else{
+
+					document.getElementById('termsError').style.visibility  = "visible";
+
+					document.getElementById('termsError').innerHTML = '<i class="icon icon--ui icon--error-small" ></i>Please accept the terms and conditions to proceed with your order.</i>';
+
+				}
+
+					
+
+				if(document.getElementById('italy2ndcheckbox').checked){
+
+					document.getElementById('italyOnlyCheckboxError').innerHTML = '';
+
+					document.getElementById('italyOnlyCheckboxError').style.visibility  = "hidden";
+
+				}
+
+				else{
+
+					document.getElementById('italyOnlyCheckboxError').style.visibility  = "visible";
+
+					document.getElementById('italyOnlyCheckboxError').innerHTML = '<i class="icon icon--ui icon--error-small" ></i>Please accept the terms and conditions to proceed with your order.</i>';
+
+				}
+
+		 	}	
+
+	 	}
+
+	 	else
+
+	 	   	return true;
+
+	}
+
+
+
+    </script>
+			<input name="_DARGS" value="/fef/checkout/includes/loggedInUserBillingcontent.jsp.populateBillingForm" type="hidden">
+			</input>
+		</form>
+		<aside class="col-1-3 l-alley-before-thick"> 
+			
+			<!-- getting the site region code -->
+			
+			<h3> Cart Summary </h3>
+			<dl class="cart-summary">
+				<dt> <dfn>Order Subtotal <sup>&dagger;</sup></dfn> </dt>
+				<dd> <strong>$2,786.92</strong> </dd>
+				<dt> <dfn>Discounts<sup>&dagger;</sup></dfn> </dt>
+				<dd> <strong> -$836.08 </strong> </dd>
+				<dt> <dfn>Shipping &amp; Handling<sup>&dagger;</sup></dfn> </dt>
+				<dd> FREE </dd>
+				<dt> <dfn>Taxes<sup>&dagger;</sup></dfn> </dt>
+				<dd> ---- </dd>
+				<dt> <dfn><strong class="total">Total<sup>&dagger;</sup></strong></dfn> </dt>
+				<dd> <strong class="total  total--amount">$1,950.84</strong> </dd>
+			</dl>
+			<p class="description"><sup>&dagger;</sup>Subtotal is in US Dollars (Excluding Tax and Shipping). Final order amounts, including tax and exact shipping, will be communicated during Checkout. Promotional offers and prices are for a limited time. All prices are in US Dollars. Products are available for purchase by US customers who take delivery in the US.</p>
+		</aside>
+	</div>
+	</div>
+</article>
+</div>
+<!-- end div role="main" -->
+</body>
+<script>
+require(["/common/lxk-framework/js/custom-input.js"], function() {});
+</script>
+</html>

@@ -1,0 +1,1124 @@
+<!-- http://www.lexmark.com/US/en/fef/cart/includes/addToCart.jsp?dcs_action=additemtocart&url_catalog_ref_id=7806&url_product_id=7806&url_quantity=1&catalogKey=en_US&overlayProdId=7945&siteURLAppender1=US/en&categoryId=product:7945 -->
+
+<!DOCTYPE html>
+
+<!--[if IE 7]><html class="ie ie7 lte9 lte8 lte7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if IE 9]><html class="ie ie9 lte9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if !IE]><!-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+
+				dir="ltr">
+
+<!--<![endif]-->
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="keywords"
+
+						content="">
+<meta name="description"
+
+						content="" />
+<title>Shopping Cart | Lexmark United States</title>
+
+<!--[if lt IE 9]>
+
+  <script src="//www.lexmark.com/common/lxk-framework/js/libs/html5shiv.js"></script>
+
+  <![endif]-->
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, crhome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Note: This stylesheet should be built through the build process from the lxk-framework master branch -->
+
+<link rel="stylesheet" href="/common/lxk-framework/v2/css/lxk-framework.css" />
+
+<!-- Note: These stylesheets will be removed once the components have been approved and merged into master -->
+
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/pagination.css" />
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/slide-in-panel.css" />
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/visibility.css" />
+<link rel="stylesheet" href="/common/common-mce/styles/css/v2/header-footer.css" />
+<link rel="stylesheet" href="/common/common-mce/styles/css/v2/utilities.css" />
+
+<!-- Note: These JS files should be merged and minimized by the build process -->
+
+<script type="text/javascript" src="/common/lxk-framework/js/libs/require.js"></script>
+<script type="text/javascript" src="/common/lxk-framework/js/main.js"></script>
+<script type="text/javascript">
+
+   			var countryCode = '/US';
+
+   			var siteURLAppender = '/US/en';
+
+   		</script>
+<script src="/common/js/jquery-1.9.1.min.js">
+
+   	</script>
+<script type="text/javascript"
+
+				src="/common/common-mce/js/atgcart.js"></script>
+<link rel="stylesheet"
+
+				href="/common/common-mce/styles/css/v2/atg-cart.css" />
+
+<!--[if IE]>
+
+		            			<link rel="stylesheet" href="/common/css/ie.css" type="text/css" media="all" charset="utf-8" />
+
+		        	<![endif]-->
+
+<script type="text/javascript">	
+
+									var flashvars = {};
+
+									flashvars.xmlpath = 'http://www.lexmark.com/US/en/common/flashContentXMLGenerator.jsp';
+
+									var swfFilePath = "/en_US/includes/swf/lexmark_global.swf";
+
+									var requsetURI="/fef/cart/includes/addToCart.jsp";
+
+									var contextPath = "";
+
+								</script>
+
+<!-- omniture fragment -->
+
+<script language="JavaScript" type="text/javascript"  src="/en_US/s_code.js"></script>
+<script language="JavaScript" type="text/javascript">
+
+		  if ( typeof(s)!= "undefined" && typeof(s) == "object") {
+
+		   s.pageName='Shopping Cart';	
+
+		  s.prop4='en_US';
+
+		      s.channel="checkout";
+
+			  s.prop1="my cart";
+
+			  s.events="scView";
+
+			s.products='Laser Toner/Print Cartridge;801XK Black Extra High Yield Return Program Toner Cartridge;1;134.99,Laser Toner/Print Cartridge;CX410  CX510 Black High Yield Return Program Toner Cartridge;3;284.96999999999997,Laser Toner/Print Cartridge;Black Extra High Yield Return Program Toner Cartridge;2;715.98,Multifunction Color Laser;Lexmark CX310n;3;1497.0,Laser Toner/Print Cartridge;801SC Cyan Standard Yield Return Program Toner Cartridge;1;90.99,Laser Toner/Print Cartridge;801SK Black Standard Yield Return Program Toner Cartridge;1;62.99';
+
+		    s.visitorID='mdattilo@lexmark.com';
+
+			  var s_code=s.t();
+
+			 if(s_code)document.write(s_code);
+
+			 }
+
+		 </script>
+</head>
+
+<!--[if lt IE 9]>
+
+	<script src="//www.lexmark.com/common/lxk-framework/js/libs/html5shiv.js"></script>
+
+	<![endif]-->
+
+<body>
+<header id="lxk-header">
+	<div class="container">
+		<div class="col-1">
+			<ul>
+				<li class="lxk-logo"><a href="/en_us.html"><i class="icon--lxk-logo"></i></a></li>
+				<li class="site-tools">
+					<nav class="site-tools-menu l-hidden--lt-laptop">
+						<ul class="horizontal-nav">
+							<li class="site-tools-menu--cart cart--autohide">
+								<div class="cart-label">Cart:</div>
+								<div class="cart-icon"><a data-name="atg-cart" href="/US/en/fef/cart/cart.jsp"><i class="icon--lxk-ui icon--cart"></i><span style="display:none;" class="badge badge--important">0</span></a></div>
+							</li>
+							<li class="site-tools-menu--search l-hidden--lt-laptop">
+								<form class="form form--search" action="/en_US/common/mce-search.shtml">
+									<div class="form__field">
+										<label class="l-screenreader-only" for="search-large">Search</label>
+										<input type="text" id="search-large" name="text" placeholder="Search Lexmark">
+										<i class="icon icon--ui icon--search-secondary"></i></div>
+								</form>
+							</li>
+						</ul>
+					</nav>
+					<nav class="mobile-menu l-hidden--gt-tablet">
+						<ul class="horizontal-nav">
+							<li class="lxk-hdr-cart cart--autohide"><a data-name="atg-cart" href="/US/en/fef/cart/cart.jsp"><i class="icon icon--lxk-ui icon--cart"></i><span style="display:none;" class="badge badge--important">0</span></a></li>
+							<li><a href="#mobile-site-menu" data-target="#mobile-site-menu"><i class="icon icon--lxk-ui icon--menu"></i></a></li>
+						</ul>
+						<div class="slide-in-panel slide-in-panel--after" id="mobile-site-menu" data-js="slideInPanel" data-button="false" data-breakpoint="tablet">
+							<ul class="l-visible-laptop">
+								<li class="lxk-hdr-search">
+									<div class="l-pad-thin">
+										<form class="form form--search" action="/en_US/common/mce-search.shtml">
+											<div class="form__field">
+												<label class="l-screenreader-only" for="search-mobile">Search</label>
+												<input type="text" id="search-mobile" name="text" placeholder="Search Lexmark">
+												<i class="icon icon--ui icon--search-secondary"></i></div>
+										</form>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Industries &amp; Solutions</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li class="dropdown__header"><span>Industries</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/solutions/banking.html">Banking</a></li>
+														<li><a href="/en_us/solutions/government.html">Government</a></li>
+														<li><a href="/en_us/solutions/healthcare.html">Healthcare</a></li>
+														<li><a href="/en_us/solutions/higher-education.html">Higher Education</a></li>
+														<li><a href="/en_us/solutions/insurance.html">Insurance</a></li>
+														<li><a href="/en_us/solutions/k-12.html">K-12</a></li>
+														<li><a href="/en_us/solutions/manufacturing.html">Manufacturing</a></li>
+														<li><a href="/en_us/solutions/retail.html">Retail</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Departmental Solutions</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/solutions/financial-process-automation.html">Financial Process Automation</a></li>
+														<li><a href="/en_us/solutions/human-resources-process-automation.html">HR Process Automation</a></li>
+														<li><a href="/en_us/solutions/legal-and-contracts.html">Legal &amp; Contracts</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Organizational Solutions</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/solutions/accessibility-solutions.html">Accessibility</a></li>
+														<li><a href="/en_us/solutions/compliance.html">Compliance</a></li>
+														<li><a href="/en_us/solutions/dynamic-case-management.html">Dynamic Case Management</a></li>
+														<li><a href="/en_us/solutions/security.html">Security</a></li>
+														<li><a href="/en_us/solutions/sustainability.html">Sustainability</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Enterprise Software</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li><a href="/en_us/products/software.html">Enterprise Software Overview</a></li>
+												<li><a href="/en_us/products/software/capture.html">Capture Information</a></li>
+												<li><a href="/en_us/products/software/mobile.html">Engage Mobile Customers</a></li>
+												<li><a href="/en_us/products/software/content-management.html">Manage Content</a></li>
+												<li><a href="/en_us/products/software/workflow-and-case-management.html">Orchestrate Processes</a></li>
+												<li><a href="/en_us/products/software/output-management.html">Output Management</a></li>
+												<li><a href="/en_us/products/software/e-signatures.html">Secure E-Signatures</a></li>
+												<li><a href="/en_us/products/software/smart-process-applications.html">Smart Process Applications</a></li>
+												<li><a href="/en_us/products/software/transact-digitally.html">Transact Digitally</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Printers &amp; MFPs</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li class="dropdown__header"><span>Hardware</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_US/products/series/printer-and-multifunction/finder.shtml">Printers &amp; Multifunction Products</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/collection-and-recycling-program/lecp.html">Equipment Collection Program</a></li>
+														<li><a href="/en_us/products/hardware/sap-integration.html">SAP Integration</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Smart MFP</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/products/smart-mfp-ecosystem.html">Smart MFP Ecosystem</a></li>
+														<li><a href="/en_us/products/smart-mfp/device-management.html">Device Management</a></li>
+														<li><a href="/en_us/products/smart-mfp/print-management.html">Print Management</a></li>
+														<li><a href="/en_us/products/smart-mfp/device-based-software.html">Device-Based Software</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Supplies, Parts &amp; Accessories</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/US/en/view/Ink%20&amp;%20Toner/catId=cat170003-category">Find Ink &amp; Toner Supplies</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/genuine-supplies.html">Why Choose Genuine Lexmark Supplies?</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/brand-protection.html">Check to Protect</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/collection-and-recycling-program.html">Lexmark Cartridge Collection Program (LCCP)</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/supplies-warranty.html">Supplies Warranty</a></li>
+														<li><a href="/en_us/services/extended-service-offerings/extended-warranty.html">Extended Warranty</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/genuine-parts-break-fix.html">Genuine Parts</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Services</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li><a href="/en_us/services/managed-print-services.html">Managed Print Services</a></li>
+												<li><a href="/en_us/services/extended-service-offerings.html">Hardware Warranty and Repair Service</a></li>
+												<li><a href="/en_us/services/professional-services.html">Professional Services</a></li>
+												<li><a href="/en_us/services/enterprise-software-services.html">Enterprise Software Services</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Customer Support</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li class="dropdown__header"><span>Product Support and Service</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/support/enterprise-software-support.html">Enterprise Software Support</a></li>
+														<li><a href="//support.lexmark.com/index?page=home&amp;userlocale=EN_US">Device Support</a></li>
+														<li><a href="//support.lexmark.com/share">Virtual Technical Support</a></li>
+														<li><a href="/en_us/support/inkjet-premium-support.html">Inkjet Premium Support</a></li>
+														<li><a href="/en_US/support-downloads/find-service-provider.shtml">Find Service Providers</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Drivers and Utilities</span>
+													<ul class="dropdown__submenu">
+														<li><a href="//support.lexmark.com/index?page=driverSupport&amp;locale=EN&amp;userlocale=EN_US">Drivers &amp; Downloads</a></li>
+														<li><a href="/en_us/support/universal-print-driver.html">Universal Print Driver</a></li>
+														<li><a href="//support.lexmark.com/index?page=firmwareSupport&amp;locale=EN&amp;userlocale=EN_US">Device Firmware</a></li>
+														<li><a href="//support.lexmark.com/index?page=oscompatiblity&amp;locale=EN&amp;userlocale=EN_US">OS Compatibility List</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Device Registration and Information</span>
+													<ul class="dropdown__submenu">
+														<li><a href="https://www.lexmarkregister.com/">Register a Device</a></li>
+														<li><a href="//support.lexmark.com/index?page=home&amp;channel=warranty&amp;locale=EN&amp;userlocale=EN_US">Warranty Information</a></li>
+														<li><a href="//support.lexmark.com/index?page=home&amp;channel=techlibrary&amp;locale=EN&amp;userlocale=EN_US">Tech Library</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li class="utility"><a data-country="United States" data-language="English" title=" (English)" href="/en_US/common/regions.shtml" data-name="choose-region"><span>Change Region <i class="icon icon--flag icon--flag--us"></i></span></a></li>
+								<li class="dropdown dropdown--align-right"><a class="dropdown__trigger" data-name="atg-sign-in">
+									<div class="menu-item">Sign in/Register</div>
+									</a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li><a href="/US/en/fef/account/accountsummary.jsp" data-name="atg-my-account">My account</a></li>
+												<li><a href="/US/en/fef/account/profile/viewprofile.jsp" data-name="atg-my-profile">Profile</a></li>
+												<li><a href="/US/en/fef/account/orders/vieworders.jsp" data-name="atg-my-orders">Orders</a></li>
+												<li><a href="javascript:document.forms['logoutForm'].submit()" data-name="atg-sign-out">Sign out</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a data-js="closePanel" class="slide-in-panel__close" href="#">&times;</a></div>
+					</nav>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row container l-hidden--lt-laptop">
+		<div class="col-1">
+			<nav class="desktop-site-menu">
+				<ul class="horizontal-nav">
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Industries &amp; Solutions</a>
+						<div class="dropdown__menu desktop-site-menu--3-col">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1-3 l-pad-horizontal">
+										<h2>Industries</h2>
+										<ul>
+											<li><a href="/en_us/solutions/banking.html">Banking</a></li>
+											<li><a href="/en_us/solutions/government.html">Government</a></li>
+											<li><a href="/en_us/solutions/healthcare.html">Healthcare</a></li>
+											<li><a href="/en_us/solutions/higher-education.html">Higher Education</a></li>
+											<li><a href="/en_us/solutions/insurance.html">Insurance</a></li>
+											<li><a href="/en_us/solutions/k-12.html">K-12</a></li>
+											<li><a href="/en_us/solutions/manufacturing.html">Manufacturing</a></li>
+											<li><a href="/en_us/solutions/retail.html">Retail</a></li>
+										</ul>
+									</div>
+									<div class="col-1-3 l-pad-horizontal">
+										<h2>Departmental Solutions</h2>
+										<ul>
+											<li><a href="/en_us/solutions/financial-process-automation.html">Financial Process Automation</a></li>
+											<li><a href="/en_us/solutions/human-resources-process-automation.html">HR Process Automation</a></li>
+											<li><a href="/en_us/solutions/legal-and-contracts.html">Legal &amp; Contracts</a></li>
+										</ul>
+									</div>
+									<div class="col-1-3 l-pad-horizontal">
+										<h2>Organizational Solutions</h2>
+										<ul>
+											<li><a href="/en_us/solutions/accessibility-solutions.html">Accessibility</a></li>
+											<li><a href="/en_us/solutions/compliance.html">Compliance</a></li>
+											<li><a href="/en_us/solutions/dynamic-case-management.html">Dynamic Case Management</a></li>
+											<li><a href="/en_us/solutions/security.html">Security</a></li>
+											<li><a href="/en_us/solutions/sustainability.html">Sustainability</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Enterprise Software</a>
+						<div class="dropdown__menu">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1 l-pad-horizontal">
+										<ul>
+											<li><a href="/en_us/products/software.html">Enterprise Software Overview</a></li>
+											<li><a href="/en_us/products/software/capture.html">Capture Information</a></li>
+											<li><a href="/en_us/products/software/mobile.html">Engage Mobile Customers</a></li>
+											<li><a href="/en_us/products/software/content-management.html">Manage Content</a></li>
+											<li><a href="/en_us/products/software/workflow-and-case-management.html">Orchestrate Processes</a></li>
+											<li><a href="/en_us/products/software/output-management.html">Output Management</a></li>
+											<li><a href="/en_us/products/software/e-signatures.html">Secure E-Signatures</a></li>
+											<li><a href="/en_us/products/software/smart-process-applications.html">Smart Process Applications</a></li>
+											<li><a href="/en_us/products/software/transact-digitally.html">Transact Digitally</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Printers &amp; MFPs</a>
+						<div class="dropdown__menu desktop-site-menu--2-col">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1-2 l-pad-horizontal">
+										<h2>Hardware</h2>
+										<ul>
+											<li><a href="/en_US/products/series/printer-and-multifunction/finder.shtml">Printers &amp; Multifunction Products</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/collection-and-recycling-program/lecp.html">Equipment Collection Program</a></li>
+											<li><a href="/en_us/products/hardware/sap-integration.html">SAP Integration</a></li>
+										</ul>
+										<h2>Smart MFP</h2>
+										<ul>
+											<li><a href="/en_us/products/smart-mfp-ecosystem.html">Smart MFP Ecosystem</a></li>
+											<li><a href="/en_us/products/smart-mfp/device-management.html">Device Management</a></li>
+											<li><a href="/en_us/products/smart-mfp/print-management.html">Print Management</a></li>
+											<li><a href="/en_us/products/smart-mfp/device-based-software.html">Device-Based Software</a></li>
+										</ul>
+									</div>
+									<div class="col-1-2 l-pad-horizontal">
+										<h2>Supplies, Parts &amp; Accessories</h2>
+										<ul>
+											<li><a href="/US/en/view/Ink%20&amp;%20Toner/catId=cat170003-category">Find Ink &amp; Toner Supplies</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/genuine-supplies.html">Why Choose Genuine Lexmark Supplies?</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/brand-protection.html">Check to Protect</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/collection-and-recycling-program.html">Lexmark Cartridge Collection Program (LCCP)</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/supplies-warranty.html">Supplies Warranty</a></li>
+											<li><a href="/en_us/services/extended-service-offerings/extended-warranty.html">Extended Warranty</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/genuine-parts-break-fix.html">Genuine Parts</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Services</a>
+						<div class="dropdown__menu">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1 l-pad-horizontal">
+										<ul>
+											<li><a href="/en_us/services/managed-print-services.html">Managed Print Services</a></li>
+											<li><a href="/en_us/services/extended-service-offerings.html">Hardware Warranty and Repair Service</a></li>
+											<li><a href="/en_us/services/professional-services.html">Professional Services</a></li>
+											<li><a href="/en_us/services/enterprise-software-services.html">Enterprise Software Services</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Customer Support</a>
+						<div class="dropdown__menu desktop-site-menu--2-col">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1-2 l-pad-horizontal">
+										<h2>Product Support and Service</h2>
+										<ul>
+											<li><a href="/en_us/support/enterprise-software-support.html">Enterprise Software Support</a></li>
+											<li><a href="//support.lexmark.com/index?page=home&amp;userlocale=EN_US">Device Support</a></li>
+											<li><a href="//support.lexmark.com/share">Virtual Technical Support</a></li>
+											<li><a href="/en_us/support/inkjet-premium-support.html">Inkjet Premium Support</a></li>
+											<li><a href="/en_US/support-downloads/find-service-provider.shtml">Find Service Providers</a></li>
+										</ul>
+									</div>
+									<div class="col-1-2 l-pad-horizontal">
+										<h2>Drivers and Utilities</h2>
+										<ul>
+											<li><a href="//support.lexmark.com/index?page=driverSupport&amp;locale=EN&amp;userlocale=EN_US">Drivers &amp; Downloads</a></li>
+											<li><a href="/en_us/support/universal-print-driver.html">Universal Print Driver</a></li>
+											<li><a href="//support.lexmark.com/index?page=firmwareSupport&amp;locale=EN&amp;userlocale=EN_US">Device Firmware</a></li>
+											<li><a href="//support.lexmark.com/index?page=oscompatiblity&amp;locale=EN&amp;userlocale=EN_US">OS Compatibility List</a></li>
+										</ul>
+										<h2>Device Registration and Information</h2>
+										<ul>
+											<li><a href="https://www.lexmarkregister.com/">Register a Device</a></li>
+											<li><a href="//support.lexmark.com/index?page=home&amp;channel=warranty&amp;locale=EN&amp;userlocale=EN_US">Warranty Information</a></li>
+											<li><a href="//support.lexmark.com/index?page=home&amp;channel=techlibrary&amp;locale=EN&amp;userlocale=EN_US">Tech Library</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<nav class="desktop-user-tools">
+				<ul class="horizontal-nav">
+					<li class="desktop-user-tools--change-region"><a data-country="United States" data-language="English" title=" (English)" href="/en_US/common/regions.shtml" data-name="choose-region"><i class="icon icon--flag icon--flag--us"></i> Change Region</a></li>
+					<li class="desktop-user-tools--sign-in dropdown dropdown--align-left"><a class="dropdown__trigger" data-name="atg-sign-in">
+						<div class="menu-item">Sign in/Register</div>
+						</a>
+						<div class="dropdown__menu">
+							<div class="dropdown__menu-inner">
+								<ul>
+									<li><a href="/US/en/fef/account/accountsummary.jsp" data-name="atg-my-account">My account</a></li>
+									<li><a href="/US/en/fef/account/profile/viewprofile.jsp" data-name="atg-my-profile">Profile</a></li>
+									<li><a href="/US/en/fef/account/orders/vieworders.jsp" data-name="atg-my-orders">Orders</a></li>
+									<li><a href="javascript:document.forms['logoutForm'].submit()" data-name="atg-sign-out">Sign out</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div id="tabletSearch" class="col-1 l-pad l-hidden">
+		<form class="form form--search" action="/en_US/common/mce-search.shtml">
+			<div class="form__field">
+				<label class="l-screenreader-only" for="search-tablet">Search</label>
+				<i class="icon icon--ui icon--search-secondary"></i>
+				<input type="text" placeholder="Search Lexmark" id="search-tablet" name="text">
+			</div>
+		</form>
+	</div>
+	<script>if (typeof require === 'function') {require(["/common/common-mce/js/header-footer.js"]);}</script><script>if (typeof require === "function") { require(["unstable/search"]); }</script> <script src="/common/js/mce/dynamicInfo.js"></script> <script>   require(['jquery'], function($) {   var form;      $('input').each(function(i, item) {   if (item.name.toLowerCase().indexOf('email') !== -1    || item.name.toLowerCase().indexOf('/atg/userprofiling/profileformhandler.value.login')   !== -1) {   form = $(item).closest('form');      form.find('button').each(function(i, item) {   if (item.type.toLowerCase() === 'submit') {   item.onclick = '';   }   });      form.on('submit', function(e) {   e.preventDefault();      form.unbind('submit');      $.ajax({   url: '//www.lexmark.com/svc/site-visitor-id/scookie?email=' + item.value,   method: 'POST',   xhrFields: { withCredentials: true }   }).done(function() {   form.submit();   })   });      return false;   }   });   });   </script> </header>
+<div style="visibility:hidden;height:0px;" id="categoryDIVId"></div>
+<form id="searchFormxx" name="searchFormxx" action="/US/en">
+	<input name="_dyncharset" value="utf-8" type="hidden">
+	</input>
+	<input name="_dynSessConf" value="929822720603612386" type="hidden">
+	</input>
+	<input name="/atg/commerce/search/catalog/QueryFormHandler.fromSearch" value="true" type="hidden">
+	<input name="_D:/atg/commerce/search/catalog/QueryFormHandler.fromSearch" value=" " type="hidden">
+	<input name="pageSize" value="15" type="hidden">
+	<input name="_D:pageSize" value=" " type="hidden">
+	<input name="/atg/commerce/search/catalog/QueryFormHandler.globalSearch" value="submit" type="hidden">
+	<input name="_D:/atg/commerce/search/catalog/QueryFormHandler.globalSearch" value=" " type="hidden">
+	<input id="searchdiv" name="/atg/commerce/search/catalog/QueryFormHandler.searchRequest.question" value="" type="hidden">
+	<input name="_D:/atg/commerce/search/catalog/QueryFormHandler.searchRequest.question" value=" " type="hidden">
+	<input id="category" name="category" value="Products" type="hidden">
+	<input name="_D:category" value=" " type="hidden">
+	<input name="_DARGS" value="/fef/common/header.jsp.searchFormxx" type="hidden">
+	</input>
+</form>
+<section id="mainContent">
+<!-- START #mainContent -->
+
+<div class="row container l-pad">
+<!-- START .row.container -->
+
+<article class="col-1">
+<section class="l-pad-vertical">
+<!-- START Added to Cart / Cart Summary -->
+
+<div class="row">
+<div class="col-2-3 l-alley-after">
+	<div class="row">
+	<div class="col-1-2">
+	<h2> This item is now in your cart. </h2>
+	<form name="cartUpdateNDeleteForm" action="/US/en/fef/cart/includes/addToCart.jsp?overlayProdId=7945&siteURLAppender1=US/en&url_catalog_ref_id=7806&_DARGS=/fef/cart/includes/addToCart.jsp.cartUpdateNDeleteForm" method="post">
+		<input name="_dyncharset" value="utf-8" type="hidden">
+		</input>
+		<input name="_dynSessConf" value="929822720603612386" type="hidden">
+		</input>
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrderSuccessURL" value="/US/en/cart/includes/addToCart.jsp" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrderSuccessURL" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrderErrorURL" value="/US/en/cart/includes/addToCart.jsp" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrderErrorURL" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.setOrderErrorURL" value="/US/en/cart/includes/addToCart.jsp" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.setOrderErrorURL" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.setOrderSuccessURL" value="/US/en/fef/cart/includes/addToCart.jsp?overlayProdId=7945&siteURLAppender1=US/en&url_catalog_ref_id=7806" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.setOrderSuccessURL" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.setOrderByCommerceId" value="" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.setOrderByCommerceId" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrder" value="" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrder" value=" " type="hidden">
+		<input type="hidden"  name="removalItems" id=ci5091000806removalId value="ci5091000806"/>
+		<input type="hidden"  name="marketingNames" id="ci5091000806marketinName" value="801SK Black Standard Yield Return Program Toner Cartridge"/>
+		<input type="hidden"  name="categoryNames" id="ci5091000806categoryName" value="Laser Toner/Print Cartridge"/>
+		<input type="hidden"  id=ci5091000806 name="ci5091000806" value="1"/>
+		<input type="hidden"  name="removalItems" id=ci5088000489removalId value="ci5088000489"/>
+		<input type="hidden"  name="marketingNames" id="ci5088000489marketinName" value="801SC Cyan Standard Yield Return Program Toner Cartridge"/>
+		<input type="hidden"  name="categoryNames" id="ci5088000489categoryName" value="Laser Toner/Print Cartridge"/>
+		<input type="hidden"  id=ci5088000489 name="ci5088000489" value="1"/>
+		<input type="hidden"  name="removalItems" id=ci5070000846removalId value="ci5070000846"/>
+		<input type="hidden"  name="marketingNames" id="ci5070000846marketinName" value="Lexmark CX310n"/>
+		<input type="hidden"  name="categoryNames" id="ci5070000846categoryName" value="Multifunction Color Laser"/>
+		<input type="hidden"  id=ci5070000846 name="ci5070000846" value="3"/>
+		<input type="hidden"  name="removalItems" id=ci5062000380removalId value="ci5062000380"/>
+		<input type="hidden"  name="marketingNames" id="ci5062000380marketinName" value="Black Extra High Yield Return Program Toner Cartridge"/>
+		<input type="hidden"  name="categoryNames" id="ci5062000380categoryName" value="Laser Toner/Print Cartridge"/>
+		<input type="hidden"  id=ci5062000380 name="ci5062000380" value="2"/>
+		<input type="hidden"  name="removalItems" id=ci5024000239removalId value="ci5024000239"/>
+		<input type="hidden"  name="marketingNames" id="ci5024000239marketinName" value="CX410, CX510 Black High Yield Return Program Toner Cartridge"/>
+		<input type="hidden"  name="categoryNames" id="ci5024000239categoryName" value="Laser Toner/Print Cartridge"/>
+		<input type="hidden"  id=ci5024000239 name="ci5024000239" value="3"/>
+		<input type="hidden"  name="removalItems" id=ci5024000108removalId value="ci5024000108"/>
+		<input type="hidden"  name="marketingNames" id="ci5024000108marketinName" value="801XK Black Extra High Yield Return Program Toner Cartridge"/>
+		<input type="hidden"  name="categoryNames" id="ci5024000108categoryName" value="Laser Toner/Print Cartridge"/>
+		<input type="hidden"  id=ci5024000108 name="ci5024000108" value="1"/>
+		<input type="hidden" name="skuId" id="skuid" value=""/>
+		<input type="hidden" name="url_catalog_ref_id" id="url_catalog_ref_id" value='7806'/>
+		<input type="hidden" name="url_product_id" id="url_product_id" value='7806'/>
+		<input type="hidden" name="catalogKey" id="catalogKey" value='en_US'/>
+		<input type="hidden" name="overlayProdId" id="overlayProdId" value='7945'/>
+		<input type="hidden" name=siteURLAppender1 id="siteURLAppender1" value='US/en'/>
+		<input type="hidden" name="categoryId" id="categoryId" value='product:7945'/>
+		<input type="hidden" id='profileLocale' value='en_US'/>
+		<input type="hidden" name="updatedItem" id="updatedItem" value=""/>
+		<input type="hidden" name="updatedItemQty" id="updatedItemQty" value=""/>
+		<input type="hidden" name="updatedItemCID" id="updatedItemCID" value=""/>
+		<ul class="cart-details">
+			<li> <a href="http://www.lexmark.com/US/en/view/product:7806/801SK Black Standard Yield Return Program Toner Cartridge/catId=product:7806-category&prodId=7806-product"> 801SK Black Standard Yield Return Program Toner Cartridge </a> </li>
+			<li><strong>Part #:</strong>&nbsp;80C1SK0</li>
+			<input type="hidden"  id=ci5091000806 name="ci5091000806" value="1"/>
+			<li><strong class="total total--amount"> $62.99 </strong></li>
+		</ul>
+		</div>
+		<div class="col-1-2 l-pad"> <img src='//media.lexmark.com/www/asset/10/7806/80C1SK0/+image_standard.png' alt='801SK Black Standard Yield Return Program Toner Cartridge' title='801SK Black Standard Yield Return Program Toner Cartridge' id='' class="pull-right"/> </div>
+		</div>
+		<input name="_DARGS" value="/fef/cart/includes/addToCart.jsp.cartUpdateNDeleteForm" type="hidden">
+		</input>
+	</form>
+	<div class="row divider"> </div>
+	
+	<!--The Below section are for Continue Shopping Button -->
+	
+	<form id="checkoutForm" name="checkoutForm" action="/US/en/fef/cart/cart.jsp?_DARGS=/fef/cart/includes/addToCart.jsp" method="post">
+		<input name="_dyncharset" value="utf-8" type="hidden">
+		</input>
+		<input name="_dynSessConf" value="929822720603612386" type="hidden">
+		</input>
+		<input name="/lexmark/util/LexSessionComponent.noKeepthisAddress" value="false" type="hidden">
+		<input name="_D:/lexmark/util/LexSessionComponent.noKeepthisAddress" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/ShippingGroupFormHandler.sameAsShippingChecked" value="false" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.sameAsShippingChecked" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.checkoutLoginPageUrl" value="/US/en/fef/checkout/login.jsp" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.checkoutLoginPageUrl" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.CheckoutSuccessPageUrl" value="/US/en/fef/checkout/shipping.jsp" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.CheckoutSuccessPageUrl" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.checkoutEditProfilePageUrl" value="/US/en/fef/account/profile/editpersonalinformation.jsp" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.checkoutEditProfilePageUrl" value=" " type="hidden">
+		<input name="/atg/commerce/order/purchase/CartModifierFormHandler.moveToPurchaseInfoByRelId" value="submit" type="hidden">
+		<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.moveToPurchaseInfoByRelId" value=" " type="hidden">
+		<input name="_DARGS" value="/fef/cart/includes/addToCart.jsp" type="hidden">
+		</input>
+	</form>
+	<div class="col-1">
+		<div class="push btn__container">
+			<button class="btn btn--secondary" onclick=
+
+
+
+
+
+
+
+
+
+"window.location.href='/US/en/fef/cart/cart.jsp';return false;" >Edit Cart</button>
+			<button class="btn btn--primary" onclick="javascript:checkOutItems('checkoutForm');return false;" > Proceed To Checkout</button>
+		</div>
+	</div>
+	
+	<!--The Below section are for Continue Shopping Button -->
+	
+	<div class="col-1 l-pad-vertical-thick">
+		<p> <a href="/US/en/view/All_Products" class="push l-pad-top-thin"><a href="/en_us/products.html" class="call-to-action">Continue shopping</a></a> </p>
+	</div>
+	
+	<!-- Closing Continue Shopping Button Section   -->
+	
+	<div class="col-1">
+		<section class="l-pad-vertical">
+		<!-- START Ink/Toner Section -->
+		
+		<div class="header--divider">
+			<h3>Ink and Toner</h3>
+		</div>
+		<div>
+			<div class="row">
+				<section class="divider l-pad-vertical-thin">
+					<div class="col-2-3 l-alley-after">
+						<div class="media">
+							<div class="media__visual"> <a href="http://www.lexmark.com/US/en/view/product:7806/801SK Black Standard Yield Return Program Toner Cartridge/catId=product:7806-category&prodId=7806-product"> <img src='//media.lexmark.com/www/asset/10/7806/80C1SK0/+image_thumbnail.gif' alt='801SK Black Standard Yield Return Program Toner Cartridge' title='801SK Black Standard Yield Return Program Toner Cartridge' id=''/> </a> </div>
+							<div class="media__body">
+								<h4> <a href="http://www.lexmark.com/US/en/view/product:7806/801SK Black Standard Yield Return Program Toner Cartridge/catId=product:7806-category&prodId=7806-product"> 801SK Black Standard Yield Return Program Toner Cartridge </a> </h4>
+								<strong>Part #:</strong>&nbsp;80C1SK0<br/>
+								
+								<!-- price fragment starts --> 
+								
+								<strong class="total total--amount"><SUP>$</SUP>62<SUP>99</SUP></strong>
+								<input type="hidden"  name="price" value="62.99"/>
+							</div>
+						</div>
+					</div>
+					<input type="hidden"  name="marketingName" value="801SK Black Standard Yield Return Program Toner Cartridge"/>
+					<input type="hidden"  name="categoryName" value="Laser Toner/Print Cartridge"/>
+					
+					<!-- price fragment end -->
+					
+					<div class="col-1-3">
+						<div class="form--inline-wrapper">
+							<div class="form__field form__field--select form--inline">
+								<label for="quantity7806">Quantity</label>
+								<select name="quantity7806" id="quantity7806" data-js="customSelect" class="quantity-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+							</div>
+						</div>
+						<input type="hidden"  id=ci5091000806 name="hello"/>
+						<button class="btn btn--important push" id="addtocart7806" onclick="javascript:addSupplies('7806','7806')"><i class="icon icon--ui icon--cart-light"></i> Add To Cart</button>
+					</div>
+					<div class="row l-pad-top" id="row l-pad-top7806" style="display:none"> </div>
+				</section>
+				<section class="divider l-pad-vertical-thin">
+					<div class="col-2-3 l-alley-after">
+						<div class="media">
+							<div class="media__visual"> <a href="http://www.lexmark.com/US/en/view/product:7807/801SC Cyan Standard Yield Return Program Toner Cartridge/catId=product:7807-category&prodId=7807-product"> <img src='//media.lexmark.com/www/asset/10/7807/+image_thumbnail.gif' alt='801SC Cyan Standard Yield Return Program Toner Cartridge' title='801SC Cyan Standard Yield Return Program Toner Cartridge' id=''/> </a> </div>
+							<div class="media__body">
+								<h4> <a href="http://www.lexmark.com/US/en/view/product:7807/801SC Cyan Standard Yield Return Program Toner Cartridge/catId=product:7807-category&prodId=7807-product"> 801SC Cyan Standard Yield Return Program Toner Cartridge </a> </h4>
+								<strong>Part #:</strong>&nbsp;80C1SC0<br/>
+								
+								<!-- price fragment starts --> 
+								
+								<strong class="total total--amount"><SUP>$</SUP>90<SUP>99</SUP></strong>
+								<input type="hidden"  name="price" value="90.99"/>
+							</div>
+						</div>
+					</div>
+					<input type="hidden"  name="marketingName" value="801SC Cyan Standard Yield Return Program Toner Cartridge"/>
+					<input type="hidden"  name="categoryName" value="Laser Toner/Print Cartridge"/>
+					
+					<!-- price fragment end -->
+					
+					<div class="col-1-3">
+						<div class="form--inline-wrapper">
+							<div class="form__field form__field--select form--inline">
+								<label for="quantity7807">Quantity</label>
+								<select name="quantity7807" id="quantity7807" data-js="customSelect" class="quantity-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+							</div>
+						</div>
+						<input type="hidden"  id=ci5091000806 name="hello"/>
+						<button class="btn btn--important push" id="addtocart7807" onclick="javascript:addSupplies('7807','7807')"><i class="icon icon--ui icon--cart-light"></i> Add To Cart</button>
+					</div>
+					<div class="row l-pad-top" id="row l-pad-top7807" style="display:none"> </div>
+				</section>
+				<section class="divider l-pad-vertical-thin">
+					<div class="col-2-3 l-alley-after">
+						<div class="media">
+							<div class="media__visual"> <a href="http://www.lexmark.com/US/en/view/product:7808/801SM Magenta Standard Yield Return Program Toner Cartridge/catId=product:7808-category&prodId=7808-product"> <img src='//media.lexmark.com/www/asset/10/7808/80C1SM0/+image_thumbnail.gif' alt='801SM Magenta Standard Yield Return Program Toner Cartridge' title='801SM Magenta Standard Yield Return Program Toner Cartridge' id=''/> </a> </div>
+							<div class="media__body">
+								<h4> <a href="http://www.lexmark.com/US/en/view/product:7808/801SM Magenta Standard Yield Return Program Toner Cartridge/catId=product:7808-category&prodId=7808-product"> 801SM Magenta Standard Yield Return Program Toner Cartridge </a> </h4>
+								<strong>Part #:</strong>&nbsp;80C1SM0<br/>
+								
+								<!-- price fragment starts --> 
+								
+								<strong class="total total--amount"><SUP>$</SUP>90<SUP>99</SUP></strong>
+								<input type="hidden"  name="price" value="90.99"/>
+							</div>
+						</div>
+					</div>
+					<input type="hidden"  name="marketingName" value="801SM Magenta Standard Yield Return Program Toner Cartridge"/>
+					<input type="hidden"  name="categoryName" value="Laser Toner/Print Cartridge"/>
+					
+					<!-- price fragment end -->
+					
+					<div class="col-1-3">
+						<div class="form--inline-wrapper">
+							<div class="form__field form__field--select form--inline">
+								<label for="quantity7808">Quantity</label>
+								<select name="quantity7808" id="quantity7808" data-js="customSelect" class="quantity-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+							</div>
+						</div>
+						<input type="hidden"  id=ci5091000806 name="hello"/>
+						<button class="btn btn--important push" id="addtocart7808" onclick="javascript:addSupplies('7808','7808')"><i class="icon icon--ui icon--cart-light"></i> Add To Cart</button>
+					</div>
+					<div class="row l-pad-top" id="row l-pad-top7808" style="display:none"> </div>
+				</section>
+				<section class="divider l-pad-vertical-thin">
+					<div class="col-2-3 l-alley-after">
+						<div class="media">
+							<div class="media__visual"> <a href="http://www.lexmark.com/US/en/view/product:7809/801SY Yellow Standard Yield Return Program Toner Cartridge/catId=product:7809-category&prodId=7809-product"> <img src='//media.lexmark.com/www/asset/10/7809/80C1SY0/+image_thumbnail.gif' alt='801SY Yellow Standard Yield Return Program Toner Cartridge' title='801SY Yellow Standard Yield Return Program Toner Cartridge' id=''/> </a> </div>
+							<div class="media__body">
+								<h4> <a href="http://www.lexmark.com/US/en/view/product:7809/801SY Yellow Standard Yield Return Program Toner Cartridge/catId=product:7809-category&prodId=7809-product"> 801SY Yellow Standard Yield Return Program Toner Cartridge </a> </h4>
+								<strong>Part #:</strong>&nbsp;80C1SY0<br/>
+								
+								<!-- price fragment starts --> 
+								
+								<strong class="total total--amount"><SUP>$</SUP>90<SUP>99</SUP></strong>
+								<input type="hidden"  name="price" value="90.99"/>
+							</div>
+						</div>
+					</div>
+					<input type="hidden"  name="marketingName" value="801SY Yellow Standard Yield Return Program Toner Cartridge"/>
+					<input type="hidden"  name="categoryName" value="Laser Toner/Print Cartridge"/>
+					
+					<!-- price fragment end -->
+					
+					<div class="col-1-3">
+						<div class="form--inline-wrapper">
+							<div class="form__field form__field--select form--inline">
+								<label for="quantity7809">Quantity</label>
+								<select name="quantity7809" id="quantity7809" data-js="customSelect" class="quantity-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+							</div>
+						</div>
+						<input type="hidden"  id=ci5091000806 name="hello"/>
+						<button class="btn btn--important push" id="addtocart7809" onclick="javascript:addSupplies('7809','7809')"><i class="icon icon--ui icon--cart-light"></i> Add To Cart</button>
+					</div>
+					<div class="row l-pad-top" id="row l-pad-top7809" style="display:none"> </div>
+				</section>
+			</div>
+			</section>
+			<!-- END Ink/Toner Section -->
+			
+			<section>
+			<!-- START Accessories Section -->
+			
+			<div class="header--divider">
+				<h3>Accessories</h3>
+			</div>
+			<div>
+				<div class="row">
+					<section class="divider l-pad-vertical-thin">
+						<div class="col-2-3 l-alley-after">
+							<div class="media">
+								<div class="media__visual"> <a href="http://www.lexmark.com/US/en/view/product:7603/550-Sheet Duo Tray with 100-Sheet Feeder/catId=product:7603-category&prodId=7603-product"> <img src='//media.lexmark.com/www/asset/24/7603/+image_thumbnail.gif' alt='550-Sheet Duo Tray with 100-Sheet Feeder' title='550-Sheet Duo Tray with 100-Sheet Feeder' id=''/> </a> </div>
+								<div class="media__body">
+									<h4> <a href="http://www.lexmark.com/US/en/view/product:7603/550-Sheet Duo Tray with 100-Sheet Feeder/catId=product:7603-category&prodId=7603-product"> 550-Sheet Duo Tray with 100-Sheet Feeder </a> </h4>
+									<strong>Part #:</strong>&nbsp;38C0626<br/>
+									
+									<!-- price fragment starts --> 
+									
+									<strong class="total total--amount"><SUP>$</SUP>199<SUP>00</SUP></strong>
+									<input type="hidden"  name="price" value="199.0"/>
+								</div>
+							</div>
+						</div>
+						<input type="hidden"  name="marketingName" value="550-Sheet Duo Tray with 100-Sheet Feeder"/>
+						<input type="hidden"  name="categoryName" value="Paper Handling"/>
+						
+						<!-- price fragment end -->
+						
+						<div class="col-1-3">
+							<div class="form--inline-wrapper">
+								<div class="form__field form__field--select form--inline">
+									<label for="quantity7603">Quantity</label>
+									<select name="quantity7603" id="quantity7603" data-js="customSelect" class="quantity-select">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+							</div>
+							<input type="hidden"  id=ci5091000806 name="hello"/>
+							<button class="btn btn--important push" id="addtocart7603" onclick="javascript:addSupplies('7603','7603')"><i class="icon icon--ui icon--cart-light"></i> Add To Cart</button>
+						</div>
+						<div class="row l-pad-top" id="row l-pad-top7603" style="display:none"> </div>
+					</section>
+					<section class="divider l-pad-vertical-thin">
+						<div class="col-2-3 l-alley-after">
+							<div class="media">
+								<div class="media__visual"> <a href="http://www.lexmark.com/US/en/view/product:7547/1024MBx32 DDR3-DRAM/catId=product:7547-category&prodId=7547-product"> <img src='//media.lexmark.com/www/asset/35/7781/+image_thumbnail.gif' alt='1024MBx32 DDR3-DRAM' title='1024MBx32 DDR3-DRAM' id=''/> </a> </div>
+								<div class="media__body">
+									<h4> <a href="http://www.lexmark.com/US/en/view/product:7547/1024MBx32 DDR3-DRAM/catId=product:7547-category&prodId=7547-product"> 1024MBx32 DDR3-DRAM </a> </h4>
+									<strong>Part #:</strong>&nbsp;57X9016<br/>
+									
+									<!-- price fragment starts --> 
+									
+									<strong class="total total--amount"><SUP>$</SUP>79<SUP>00</SUP></strong>
+									<input type="hidden"  name="price" value="79.0"/>
+								</div>
+							</div>
+						</div>
+						<input type="hidden"  name="marketingName" value="1024MBx32 DDR3-DRAM"/>
+						<input type="hidden"  name="categoryName" value="Memory Options"/>
+						
+						<!-- price fragment end -->
+						
+						<div class="col-1-3">
+							<div class="form--inline-wrapper">
+								<div class="form__field form__field--select form--inline">
+									<label for="quantity7547">Quantity</label>
+									<select name="quantity7547" id="quantity7547" data-js="customSelect" class="quantity-select">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+							</div>
+							<input type="hidden"  id=ci5091000806 name="hello"/>
+							<button class="btn btn--important push" id="addtocart7547" onclick="javascript:addSupplies('7547','7547')"><i class="icon icon--ui icon--cart-light"></i> Add To Cart</button>
+						</div>
+						<div class="row l-pad-top" id="row l-pad-top7547" style="display:none"> </div>
+					</section>
+					<section class="divider l-pad-vertical-thin">
+						<div class="col-2-3 l-alley-after">
+							<div class="media">
+								<div class="media__visual"> <a href="http://www.lexmark.com/US/en/view/product:2550/USB Cable (2-meter)/catId=product:2550-category&prodId=2550-product"> <img src='//media.lexmark.com/www/asset/13/2550/+image_thumbnail.gif' alt='USB Cable (2-meter)' title='USB Cable (2-meter)' id=''/> </a> </div>
+								<div class="media__body">
+									<h4> <a href="http://www.lexmark.com/US/en/view/product:2550/USB Cable (2-meter)/catId=product:2550-category&prodId=2550-product"> USB Cable (2-meter) </a> </h4>
+									<strong>Part #:</strong>&nbsp;1021294<br/>
+									
+									<!-- price fragment starts --> 
+									
+									<strong class="total total--amount"><SUP>$</SUP>18<SUP>90</SUP></strong>
+									<input type="hidden"  name="price" value="18.9"/>
+								</div>
+							</div>
+						</div>
+						<input type="hidden"  name="marketingName" value="USB Cable (2-meter)"/>
+						<input type="hidden"  name="categoryName" value="Connectivity"/>
+						
+						<!-- price fragment end -->
+						
+						<div class="col-1-3">
+							<div class="form--inline-wrapper">
+								<div class="form__field form__field--select form--inline">
+									<label for="quantity2550">Quantity</label>
+									<select name="quantity2550" id="quantity2550" data-js="customSelect" class="quantity-select">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+							</div>
+							<input type="hidden"  id=ci5091000806 name="hello"/>
+							<button class="btn btn--important push" id="addtocart2550" onclick="javascript:addSupplies('2550','2550')"><i class="icon icon--ui icon--cart-light"></i> Add To Cart</button>
+						</div>
+						<div class="row l-pad-top" id="row l-pad-top2550" style="display:none"> </div>
+					</section>
+					<section class="divider l-pad-vertical-thin">
+						<div class="col-2-3 l-alley-after">
+							<div class="media">
+								<div class="media__visual"> <a href="http://www.lexmark.com/US/en/view/product:7778/Lexmark MarkNet 8352 802.11b/g/n Wireless/catId=product:7778-category&prodId=7778-product"> <img src='//media.lexmark.com/www/asset/13/7778/+image_thumbnail.gif' alt='Lexmark MarkNet 8352 802.11b/g/n Wireless' title='Lexmark MarkNet 8352 802.11b/g/n Wireless' id=''/> </a> </div>
+								<div class="media__body">
+									<h4> <a href="http://www.lexmark.com/US/en/view/product:7778/Lexmark MarkNet 8352 802.11b/g/n Wireless/catId=product:7778-category&prodId=7778-product"> Lexmark MarkNet 8352 802.11b/g/n Wireless </a> </h4>
+									<strong>Part #:</strong>&nbsp;27X0125<br/>
+									
+									<!-- price fragment starts --> 
+									
+									<strong class="total total--amount"><SUP>$</SUP>49<SUP>00</SUP></strong>
+									<input type="hidden"  name="price" value="49.0"/>
+								</div>
+							</div>
+						</div>
+						<input type="hidden"  name="marketingName" value="Lexmark MarkNet 8352 802.11b/g/n Wireless"/>
+						<input type="hidden"  name="categoryName" value="Connectivity"/>
+						
+						<!-- price fragment end -->
+						
+						<div class="col-1-3">
+							<div class="form--inline-wrapper">
+								<div class="form__field form__field--select form--inline">
+									<label for="quantity7778">Quantity</label>
+									<select name="quantity7778" id="quantity7778" data-js="customSelect" class="quantity-select">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+							</div>
+							<input type="hidden"  id=ci5091000806 name="hello"/>
+							<button class="btn btn--important push" id="addtocart7778" onclick="javascript:addSupplies('7778','7778')"><i class="icon icon--ui icon--cart-light"></i> Add To Cart</button>
+						</div>
+						<div class="row l-pad-top" id="row l-pad-top7778" style="display:none"> </div>
+					</section>
+				</div>
+				</section>
+				<!-- END Accessories Section --> 
+				
+			</div>
+		</div>
+		<input type="hidden" id="omnitureCartEvent" value="scAdd"/>
+		<div class="col-1-3"> 
+			
+			<!-- getting the site region code -->
+			
+			<aside class="l-pad-bottom">
+				<h2 class="l-pad-bottom-thin"> Cart Summary </h2>
+				<dl class="cart-summary">
+					<dt> <dfn> Order Subtotal <sup>&dagger;</sup> </dfn> </dt>
+					<dd> <strong>$2,786.92</strong> </dd>
+					<dt> <dfn> Discounts<sup>&dagger;</sup> </dfn> </dt>
+					<dd> <strong> -$836.08 </strong> </dd>
+					<dt> <dfn> Shipping &amp; Handling<sup>&dagger;</sup> </dfn> </dt>
+					<dd> ---- </dd>
+					<dt> <dfn> Taxes<sup>&dagger;</sup> </dfn> </dt>
+					<dd>----</dd>
+					<dt> <dfn> <strong class="total">Total<sup>&dagger;</sup></strong> </dfn> </dt>
+					<dd> <strong class="total  total--amount">$1,950.84</strong> </dd>
+				</dl>
+				<p class="description"> <sup>&dagger;</sup>Subtotal is in US Dollars (Excluding Tax and Shipping). Final order amounts, including tax and exact shipping, will be communicated during Checkout. Promotional offers and prices are for a limited time. All prices are in US Dollars. Products are available for purchase by US customers who take delivery in the US. </p>
+				<div class="row add-cart-promo">
+					<div class="col-1">
+						<form name="couponClaimForm" action="/US/en/fef/cart/includes/addToCart.jsp?overlayProdId=7945&siteURLAppender1=US/en&url_catalog_ref_id=7806&url_product_id=7806&_DARGS=/fef/cart/includes/addcouponClaim.jsp.couponClaimForm" class="form" method="post">
+							<input name="_dyncharset" value="utf-8" type="hidden">
+							</input>
+							<input name="_dynSessConf" value="929822720603612386" type="hidden">
+							</input>
+							<input name="/atg/commerce/promotion/CouponFormHandler.claimCouponSuccessURL" value="/US/en/fef/cart/cart.jsp" type="hidden">
+							<input name="_D:/atg/commerce/promotion/CouponFormHandler.claimCouponSuccessURL" value=" " type="hidden">
+							<input name="/atg/commerce/promotion/CouponFormHandler.claimCouponErrorURL" value="/US/en/fef/cart/includes/addToCart.jsp?overlayProdId=7945&siteURLAppender1=US/en&url_catalog_ref_id=7806&url_product_id=7806" type="hidden">
+							<input name="_D:/atg/commerce/promotion/CouponFormHandler.claimCouponErrorURL" value=" " type="hidden">
+							<div class="form--inline-wrapper">
+								<div class="form__field form--inline">
+									<label for="promo">Promotional Code (Optional)</label>
+									<input maxlength="30" name="/atg/commerce/promotion/CouponFormHandler.couponClaimCode" value="" class="vertical-space" type="text">
+									<input name="_D:/atg/commerce/promotion/CouponFormHandler.couponClaimCode" value=" " type="hidden">
+									<button class="btn btn--secondary btn--block" onclick="document.couponClaimForm.submit();return false;">Apply Promo Code</button>
+								</div>
+							</div>
+							<input name="/atg/commerce/promotion/CouponFormHandler.claimCoupon" value="button" type="hidden">
+							<input name="_D:/atg/commerce/promotion/CouponFormHandler.claimCoupon" value=" " type="hidden">
+							<input name="_DARGS" value="/fef/cart/includes/addcouponClaim.jsp.couponClaimForm" type="hidden">
+							</input>
+						</form>
+					</div>
+				</div>
+			</aside>
+			
+			<!-- START Checkout-Login-Aside / When user is logged in this aside section needs replaced with atg-cart/includes/logged-in.shtml --> 
+			
+		</div>
+	</div>
+	</section>
+	<!-- END Added to Cart / Cart Summary -->
+	
+	</article>
+	<!-- END .col-1 --> 
+	
+</div>
+<!-- END .row.container -->
+
+</section>
+<!-- END #mainContent --> 
+
+; 
+<script language="JavaScript" type="text/javascript"  src="/en_US/s_code.js"></script> 
+;
+<form name="omnitureForm" id="omnitureFormId" action="#" class="vertical-space--none">
+	<input type="hidden" id="omnitureRequiredId" name="omnitureRequired" value='yes'/>
+	<input type="hidden" id="omnitureLanguage" name="omnitureLanguage" value='en_US'/>
+	<input type="hidden" id="omnitureSSProductsExists" name="omnitureSSProductsExists" value='false'/>
+</form>
+<footer id="lxk-footer">
+	<nav class="footer-site-menu">
+		<div class="row container">
+			<ul class="col-1-3 col-sm-1 col-md-1-3" id="subFooterCol1">
+				<li><a href="/en_us.html">Home<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/partners.html">Partners<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/about.html">About<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/contact-us.html">Contact Us<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/careers.html">Careers<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+			</ul>
+			<ul class="col-1-3 col-sm-1 col-md-1-3" id="subFooterCol2">
+				<li><a href="http://investor.lexmark.com/">Investor Relations<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="http://www.lexmarknewsblog.com/">Newsblog<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="http://newsroom.lexmark.com/">Newsroom<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="http://csr.lexmark.com/">Global Citizenship<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/products/hardware/dealer-locator.html">Find a Dealer<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+			</ul>
+			<ul class="col-1-3 col-sm-1 col-md-1-3" id="subFooterCol3">
+				<li><a href="http://lexmark.force.com/CPEventsCommunity">Enterprise Software Community<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="https://www.lexmarkregister.com/">Product Registration<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="//support.lexmark.com/index?page=home&amp;userlocale=EN_US">Technical Support<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/success-stories.html">Success Stories<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/analyst-insights.html">Analyst Insights<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/GlobalPreferenceCenter.html">Subscription Management<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li class="footer-site-menu__social">
+					<ul>
+						<li><a href="https://www.youtube.com/user/LexmarkNews" title="YouTube"><i class="icon icon--logo icon--site-logo-youtube"></i></a></li>
+						<li><a href="https://twitter.com/lexmark" title="Twitter"><i class="icon icon--logo icon--site-logo-twitter"></i></a></li>
+						<li><a href="https://linkedin.com/company/lexmark" title="LinkedIn"><i class="icon icon--logo icon--site-logo-linkedin"></i></a></li>
+						<li><a href="https://facebook.com/LexmarkNews" title="Facebook"><i class="icon icon--logo icon--site-logo-facebook"></i></a></li>
+						<li><a href="http://www.incontextmag.com/" title="inContext"><i class="icon icon--logo icon--site-logo-incontext"></i></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<nav class="row container legal-menu">
+		<div class="col-1-2 col-md-1-2 col-sm-3-5 col-xs-1">
+			<ul class="legal-menu__brand">
+				<li class="legal-menu__brand--logo"><i class="icon icon--lxk-symbol"></i></li>
+				<li>
+					<ul class="legal-menu__brand--copyright">
+						<li>Lexmark International, Inc.</li>
+						<li>&copy;2016 All rights reserved.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="col-1-2 col-md-1-2 col-sm-2-5 col-xs-1">
+			<ul class="legal-menu__notice">
+				<li><a href="/en_us/privacy-policy.html">Privacy Policy</a></li>
+				<li><a href="/en_us/terms-and-conditions.html">Terms and Conditions</a></li>
+				<li><a href="/en_us/terms-of-use.html">Terms of Use</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="return-to-top col-1"><a href="#lxk-header"><i class="icon icon--lxk-ui icon--toggle-up"></i>
+		<div>Return to Top of Page</div>
+		</a></div>
+</footer>
+<form name="omnitureForm" id="omnitureFormId" action="#" class="vertical-space--none">
+	<input type="hidden" id="omnitureRequiredId" name="omnitureRequired" value='yes'/>
+	<input type="hidden" id="omnitureLanguage" name="omnitureLanguage" value='en_US'/>
+	<input type="hidden" id="omnitureSSProductsExists" name="omnitureSSProductsExists" value='false'/>
+</form>
+</body>
