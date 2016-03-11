@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+
+<!--[if IE 7]><html class="ie ie7 lte9 lte8 lte7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if IE 9]><html class="ie ie9 lte9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><![endif]-->
+
+<!--[if !IE]><!-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+
+				dir="ltr">
+
+<!--<![endif]-->
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="keywords"
+
+						content="">
+<meta name="description"
+
+						content="" />
+<title>Sign In | Lexmark United States</title>
+
+<!--[if lt IE 9]>
+
+  <script src="//www.lexmark.com/common/lxk-framework/js/libs/html5shiv.js"></script>
+
+  <![endif]-->
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, crhome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Note: This stylesheet should be built through the build process from the lxk-framework master branch -->
+
+<link rel="stylesheet" href="/common/lxk-framework/v2/css/lxk-framework.css" />
+
+<!-- Note: These stylesheets will be removed once the components have been approved and merged into master -->
+
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/pagination.css" />
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/slide-in-panel.css" />
+<link rel="stylesheet" href="/common/lxk-framework/unstable/css/visibility.css" />
+<link rel="stylesheet" href="/common/common-mce/styles/css/v2/header-footer.css" />
+<link rel="stylesheet" href="/common/common-mce/styles/css/v2/utilities.css" />
+
+<!-- Note: These JS files should be merged and minimized by the build process -->
+
+<script type="text/javascript" src="/common/lxk-framework/js/libs/require.js"></script>
+<script type="text/javascript" src="/common/lxk-framework/js/main.js"></script>
+<script type="text/javascript">
+
+   			var countryCode = '/US';
+
+   			var siteURLAppender = '/US/en';
+
+   		</script>
+<script src="/common/js/jquery-1.9.1.min.js">
+
+   	</script>
+<script type="text/javascript"
+
+				src="/common/common-mce/js/account.js"></script>
+<link rel="stylesheet"
+
+				href="/common/common-mce/styles/css/v2/account.css" />
+
+<!--[if IE]>
+
+		            			<link rel="stylesheet" href="/common/css/ie.css" type="text/css" media="all" charset="utf-8" />
+
+		        	<![endif]-->
+
+<script type="text/javascript">	
+
+									var flashvars = {};
+
+									flashvars.xmlpath = 'http://www.lexmark.com/US/en/common/flashContentXMLGenerator.jsp';
+
+									var swfFilePath = "/en_US/includes/swf/lexmark_global.swf";
+
+									var requsetURI="/fef/login/login.jsp";
+
+									var contextPath = "";
+
+								</script>
+
+<!-- omniture fragment -->
+
+<script language="JavaScript" type="text/javascript"  src="/en_US/s_code.js"></script>
+<script language="JavaScript" type="text/javascript">
+
+		  if ( typeof(s)!= "undefined" && typeof(s) == "object") {
+
+		   s.pageName='Sign In';	
+
+		  s.prop4='en_US';
+
+			  var s_code=s.t();
+
+			 if(s_code)document.write(s_code);
+
+			 }
+
+		 </script>
+
+</head>
+
+<!--[if lt IE 9]>
+
+	<script src="//www.lexmark.com/common/lxk-framework/js/libs/html5shiv.js"></script>
+
+	<![endif]-->
+
+<body dir="ltr">
+
+<!-- begin Marin Software Tracking Script Click Capture--> 
+
+<script type='text/javascript'>
+
+var _marinClientId = "x2wwmm8888";
+
+var _marinProto = (("https:" == document.location.protocol) ? "https://" : "http://");
+
+document.write(unescape("%3Cscript src='" + _marinProto + "tracker.marinsm.com/tracker/" +
+
+_marinClientId + ".js' type='text/javascript'%3E%3C/script%3E"));
+
+</script> 
+<script type='text/javascript'>
+
+try {
+
+_marinTrack.trackPage();
+
+} catch(err) {}
+
+</script>
+<noscript>
+<img src="https://tracker.marinsm.com/tp?act=1&cid=x2wwmm8888&script=no" >
+</noscript>
+
+<!-- end Copyright Marin Software -->
+
+<header id="lxk-header">
+	<div class="container">
+		<div class="col-1">
+			<ul>
+				<li class="lxk-logo"><a href="/en_us.html"><i class="icon--lxk-logo"></i></a></li>
+				<li class="site-tools">
+					<nav class="site-tools-menu l-hidden--lt-laptop">
+						<ul class="horizontal-nav">
+							<li class="site-tools-menu--cart cart--autohide">
+								<div class="cart-label">Cart:</div>
+								<div class="cart-icon"><a data-name="atg-cart" href="/US/en/fef/cart/cart.jsp"><i class="icon--lxk-ui icon--cart"></i><span style="display:none;" class="badge badge--important">0</span></a></div>
+							</li>
+							<li class="site-tools-menu--search l-hidden--lt-laptop">
+								<form class="form form--search" action="/en_US/common/mce-search.shtml">
+									<div class="form__field">
+										<label class="l-screenreader-only" for="search-large">Search</label>
+										<input type="text" id="search-large" name="text" placeholder="Search Lexmark">
+										<i class="icon icon--ui icon--search-secondary"></i></div>
+								</form>
+							</li>
+						</ul>
+					</nav>
+					<nav class="mobile-menu l-hidden--gt-tablet">
+						<ul class="horizontal-nav">
+							<li class="lxk-hdr-cart cart--autohide"><a data-name="atg-cart" href="/US/en/fef/cart/cart.jsp"><i class="icon icon--lxk-ui icon--cart"></i><span style="display:none;" class="badge badge--important">0</span></a></li>
+							<li><a href="#mobile-site-menu" data-target="#mobile-site-menu"><i class="icon icon--lxk-ui icon--menu"></i></a></li>
+						</ul>
+						<div class="slide-in-panel slide-in-panel--after" id="mobile-site-menu" data-js="slideInPanel" data-button="false" data-breakpoint="tablet">
+							<ul class="l-visible-laptop">
+								<li class="lxk-hdr-search">
+									<div class="l-pad-thin">
+										<form class="form form--search" action="/en_US/common/mce-search.shtml">
+											<div class="form__field">
+												<label class="l-screenreader-only" for="search-mobile">Search</label>
+												<input type="text" id="search-mobile" name="text" placeholder="Search Lexmark">
+												<i class="icon icon--ui icon--search-secondary"></i></div>
+										</form>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Industries &amp; Solutions</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li class="dropdown__header"><span>Industries</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/solutions/banking.html">Banking</a></li>
+														<li><a href="/en_us/solutions/government.html">Government</a></li>
+														<li><a href="/en_us/solutions/healthcare.html">Healthcare</a></li>
+														<li><a href="/en_us/solutions/higher-education.html">Higher Education</a></li>
+														<li><a href="/en_us/solutions/insurance.html">Insurance</a></li>
+														<li><a href="/en_us/solutions/k-12.html">K-12</a></li>
+														<li><a href="/en_us/solutions/manufacturing.html">Manufacturing</a></li>
+														<li><a href="/en_us/solutions/retail.html">Retail</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Departmental Solutions</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/solutions/financial-process-automation.html">Financial Process Automation</a></li>
+														<li><a href="/en_us/solutions/human-resources-process-automation.html">HR Process Automation</a></li>
+														<li><a href="/en_us/solutions/legal-and-contracts.html">Legal &amp; Contracts</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Organizational Solutions</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/solutions/accessibility-solutions.html">Accessibility</a></li>
+														<li><a href="/en_us/solutions/compliance.html">Compliance</a></li>
+														<li><a href="/en_us/solutions/dynamic-case-management.html">Dynamic Case Management</a></li>
+														<li><a href="/en_us/solutions/security.html">Security</a></li>
+														<li><a href="/en_us/solutions/sustainability.html">Sustainability</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Enterprise Software</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li><a href="/en_us/products/software.html">Enterprise Software Overview</a></li>
+												<li><a href="/en_us/products/software/capture.html">Capture Information</a></li>
+												<li><a href="/en_us/products/software/mobile.html">Engage Mobile Customers</a></li>
+												<li><a href="/en_us/products/software/content-management.html">Manage Content</a></li>
+												<li><a href="/en_us/products/software/workflow-and-case-management.html">Orchestrate Processes</a></li>
+												<li><a href="/en_us/products/software/output-management.html">Output Management</a></li>
+												<li><a href="/en_us/products/software/e-signatures.html">Secure E-Signatures</a></li>
+												<li><a href="/en_us/products/software/smart-process-applications.html">Smart Process Applications</a></li>
+												<li><a href="/en_us/products/software/transact-digitally.html">Transact Digitally</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Printers &amp; MFPs</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li class="dropdown__header"><span>Hardware</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_US/products/series/printer-and-multifunction/finder.shtml">Printers &amp; Multifunction Products</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/collection-and-recycling-program/lecp.html">Equipment Collection Program</a></li>
+														<li><a href="/en_us/products/hardware/sap-integration.html">SAP Integration</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Smart MFP</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/products/smart-mfp-ecosystem.html">Smart MFP Ecosystem</a></li>
+														<li><a href="/en_us/products/smart-mfp/device-management.html">Device Management</a></li>
+														<li><a href="/en_us/products/smart-mfp/print-management.html">Print Management</a></li>
+														<li><a href="/en_us/products/smart-mfp/device-based-software.html">Device-Based Software</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Supplies, Parts &amp; Accessories</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/US/en/view/Ink%20&amp;%20Toner/catId=cat170003-category">Find Ink &amp; Toner Supplies</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/genuine-supplies.html">Why Choose Genuine Lexmark Supplies?</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/brand-protection.html">Check to Protect</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/collection-and-recycling-program.html">Lexmark Cartridge Collection Program (LCCP)</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/supplies-warranty.html">Supplies Warranty</a></li>
+														<li><a href="/en_us/services/extended-service-offerings/extended-warranty.html">Extended Warranty</a></li>
+														<li><a href="/en_us/products/supplies-and-accessories/genuine-parts-break-fix.html">Genuine Parts</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Services</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li><a href="/en_us/services/managed-print-services.html">Managed Print Services</a></li>
+												<li><a href="/en_us/services/extended-service-offerings.html">Hardware Warranty and Repair Service</a></li>
+												<li><a href="/en_us/services/professional-services.html">Professional Services</a></li>
+												<li><a href="/en_us/services/enterprise-software-services.html">Enterprise Software Services</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">
+									<div class="menu-item">Customer Support</div>
+									<i class="icon icon--lxk-ui icon--toggle-down open-icon"></i><i class="icon icon--lxk-ui icon--toggle-up close-icon"></i></a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li class="dropdown__header"><span>Product Support and Service</span>
+													<ul class="dropdown__submenu">
+														<li><a href="/en_us/support/enterprise-software-support.html">Enterprise Software Support</a></li>
+														<li><a href="//support.lexmark.com/index?page=home&amp;userlocale=EN_US">Device Support</a></li>
+														<li><a href="//support.lexmark.com/share">Virtual Technical Support</a></li>
+														<li><a href="/en_us/support/inkjet-premium-support.html">Inkjet Premium Support</a></li>
+														<li><a href="/en_US/support-downloads/find-service-provider.shtml">Find Service Providers</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Drivers and Utilities</span>
+													<ul class="dropdown__submenu">
+														<li><a href="//support.lexmark.com/index?page=driverSupport&amp;locale=EN&amp;userlocale=EN_US">Drivers &amp; Downloads</a></li>
+														<li><a href="/en_us/support/universal-print-driver.html">Universal Print Driver</a></li>
+														<li><a href="//support.lexmark.com/index?page=firmwareSupport&amp;locale=EN&amp;userlocale=EN_US">Device Firmware</a></li>
+														<li><a href="//support.lexmark.com/index?page=oscompatiblity&amp;locale=EN&amp;userlocale=EN_US">OS Compatibility List</a></li>
+													</ul>
+												</li>
+												<li class="dropdown__header"><span>Device Registration and Information</span>
+													<ul class="dropdown__submenu">
+														<li><a href="https://www.lexmarkregister.com/">Register a Device</a></li>
+														<li><a href="//support.lexmark.com/index?page=home&amp;channel=warranty&amp;locale=EN&amp;userlocale=EN_US">Warranty Information</a></li>
+														<li><a href="//support.lexmark.com/index?page=home&amp;channel=techlibrary&amp;locale=EN&amp;userlocale=EN_US">Tech Library</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li class="utility"><a data-country="United States" data-language="English" title=" (English)" href="/en_US/common/regions.shtml" data-name="choose-region"><span>Change Region <i class="icon icon--flag icon--flag--us"></i></span></a></li>
+								<li class="dropdown dropdown--align-right"><a class="dropdown__trigger" data-name="atg-sign-in">
+									<div class="menu-item">Sign in/Register</div>
+									</a>
+									<div class="dropdown__menu">
+										<div class="dropdown__menu-inner">
+											<ul>
+												<li><a href="/US/en/fef/account/accountsummary.jsp" data-name="atg-my-account">My account</a></li>
+												<li><a href="/US/en/fef/account/profile/viewprofile.jsp" data-name="atg-my-profile">Profile</a></li>
+												<li><a href="/US/en/fef/account/orders/vieworders.jsp" data-name="atg-my-orders">Orders</a></li>
+												<li><a href="javascript:document.forms['logoutForm'].submit()" data-name="atg-sign-out">Sign out</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a data-js="closePanel" class="slide-in-panel__close" href="#">&times;</a></div>
+					</nav>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row container l-hidden--lt-laptop">
+		<div class="col-1">
+			<nav class="desktop-site-menu">
+				<ul class="horizontal-nav">
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Industries &amp; Solutions</a>
+						<div class="dropdown__menu desktop-site-menu--3-col">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1-3 l-pad-horizontal">
+										<h2>Industries</h2>
+										<ul>
+											<li><a href="/en_us/solutions/banking.html">Banking</a></li>
+											<li><a href="/en_us/solutions/government.html">Government</a></li>
+											<li><a href="/en_us/solutions/healthcare.html">Healthcare</a></li>
+											<li><a href="/en_us/solutions/higher-education.html">Higher Education</a></li>
+											<li><a href="/en_us/solutions/insurance.html">Insurance</a></li>
+											<li><a href="/en_us/solutions/k-12.html">K-12</a></li>
+											<li><a href="/en_us/solutions/manufacturing.html">Manufacturing</a></li>
+											<li><a href="/en_us/solutions/retail.html">Retail</a></li>
+										</ul>
+									</div>
+									<div class="col-1-3 l-pad-horizontal">
+										<h2>Departmental Solutions</h2>
+										<ul>
+											<li><a href="/en_us/solutions/financial-process-automation.html">Financial Process Automation</a></li>
+											<li><a href="/en_us/solutions/human-resources-process-automation.html">HR Process Automation</a></li>
+											<li><a href="/en_us/solutions/legal-and-contracts.html">Legal &amp; Contracts</a></li>
+										</ul>
+									</div>
+									<div class="col-1-3 l-pad-horizontal">
+										<h2>Organizational Solutions</h2>
+										<ul>
+											<li><a href="/en_us/solutions/accessibility-solutions.html">Accessibility</a></li>
+											<li><a href="/en_us/solutions/compliance.html">Compliance</a></li>
+											<li><a href="/en_us/solutions/dynamic-case-management.html">Dynamic Case Management</a></li>
+											<li><a href="/en_us/solutions/security.html">Security</a></li>
+											<li><a href="/en_us/solutions/sustainability.html">Sustainability</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Enterprise Software</a>
+						<div class="dropdown__menu">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1 l-pad-horizontal">
+										<ul>
+											<li><a href="/en_us/products/software.html">Enterprise Software Overview</a></li>
+											<li><a href="/en_us/products/software/capture.html">Capture Information</a></li>
+											<li><a href="/en_us/products/software/mobile.html">Engage Mobile Customers</a></li>
+											<li><a href="/en_us/products/software/content-management.html">Manage Content</a></li>
+											<li><a href="/en_us/products/software/workflow-and-case-management.html">Orchestrate Processes</a></li>
+											<li><a href="/en_us/products/software/output-management.html">Output Management</a></li>
+											<li><a href="/en_us/products/software/e-signatures.html">Secure E-Signatures</a></li>
+											<li><a href="/en_us/products/software/smart-process-applications.html">Smart Process Applications</a></li>
+											<li><a href="/en_us/products/software/transact-digitally.html">Transact Digitally</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Printers &amp; MFPs</a>
+						<div class="dropdown__menu desktop-site-menu--2-col">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1-2 l-pad-horizontal">
+										<h2>Hardware</h2>
+										<ul>
+											<li><a href="/en_US/products/series/printer-and-multifunction/finder.shtml">Printers &amp; Multifunction Products</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/collection-and-recycling-program/lecp.html">Equipment Collection Program</a></li>
+											<li><a href="/en_us/products/hardware/sap-integration.html">SAP Integration</a></li>
+										</ul>
+										<h2>Smart MFP</h2>
+										<ul>
+											<li><a href="/en_us/products/smart-mfp-ecosystem.html">Smart MFP Ecosystem</a></li>
+											<li><a href="/en_us/products/smart-mfp/device-management.html">Device Management</a></li>
+											<li><a href="/en_us/products/smart-mfp/print-management.html">Print Management</a></li>
+											<li><a href="/en_us/products/smart-mfp/device-based-software.html">Device-Based Software</a></li>
+										</ul>
+									</div>
+									<div class="col-1-2 l-pad-horizontal">
+										<h2>Supplies, Parts &amp; Accessories</h2>
+										<ul>
+											<li><a href="/US/en/view/Ink%20&amp;%20Toner/catId=cat170003-category">Find Ink &amp; Toner Supplies</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/genuine-supplies.html">Why Choose Genuine Lexmark Supplies?</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/brand-protection.html">Check to Protect</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/collection-and-recycling-program.html">Lexmark Cartridge Collection Program (LCCP)</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/supplies-warranty.html">Supplies Warranty</a></li>
+											<li><a href="/en_us/services/extended-service-offerings/extended-warranty.html">Extended Warranty</a></li>
+											<li><a href="/en_us/products/supplies-and-accessories/genuine-parts-break-fix.html">Genuine Parts</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Services</a>
+						<div class="dropdown__menu">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1 l-pad-horizontal">
+										<ul>
+											<li><a href="/en_us/services/managed-print-services.html">Managed Print Services</a></li>
+											<li><a href="/en_us/services/extended-service-offerings.html">Hardware Warranty and Repair Service</a></li>
+											<li><a href="/en_us/services/professional-services.html">Professional Services</a></li>
+											<li><a href="/en_us/services/enterprise-software-services.html">Enterprise Software Services</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown" data-js="dropdown"><a href="#" class="dropdown__trigger">Customer Support</a>
+						<div class="dropdown__menu desktop-site-menu--2-col">
+							<div class="dropdown__menu-inner">
+								<div class="row">
+									<div class="col-1-2 l-pad-horizontal">
+										<h2>Product Support and Service</h2>
+										<ul>
+											<li><a href="/en_us/support/enterprise-software-support.html">Enterprise Software Support</a></li>
+											<li><a href="//support.lexmark.com/index?page=home&amp;userlocale=EN_US">Device Support</a></li>
+											<li><a href="//support.lexmark.com/share">Virtual Technical Support</a></li>
+											<li><a href="/en_us/support/inkjet-premium-support.html">Inkjet Premium Support</a></li>
+											<li><a href="/en_US/support-downloads/find-service-provider.shtml">Find Service Providers</a></li>
+										</ul>
+									</div>
+									<div class="col-1-2 l-pad-horizontal">
+										<h2>Drivers and Utilities</h2>
+										<ul>
+											<li><a href="//support.lexmark.com/index?page=driverSupport&amp;locale=EN&amp;userlocale=EN_US">Drivers &amp; Downloads</a></li>
+											<li><a href="/en_us/support/universal-print-driver.html">Universal Print Driver</a></li>
+											<li><a href="//support.lexmark.com/index?page=firmwareSupport&amp;locale=EN&amp;userlocale=EN_US">Device Firmware</a></li>
+											<li><a href="//support.lexmark.com/index?page=oscompatiblity&amp;locale=EN&amp;userlocale=EN_US">OS Compatibility List</a></li>
+										</ul>
+										<h2>Device Registration and Information</h2>
+										<ul>
+											<li><a href="https://www.lexmarkregister.com/">Register a Device</a></li>
+											<li><a href="//support.lexmark.com/index?page=home&amp;channel=warranty&amp;locale=EN&amp;userlocale=EN_US">Warranty Information</a></li>
+											<li><a href="//support.lexmark.com/index?page=home&amp;channel=techlibrary&amp;locale=EN&amp;userlocale=EN_US">Tech Library</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<nav class="desktop-user-tools">
+				<ul class="horizontal-nav">
+					<li class="desktop-user-tools--change-region"><a data-country="United States" data-language="English" title=" (English)" href="/en_US/common/regions.shtml" data-name="choose-region"><i class="icon icon--flag icon--flag--us"></i> Change Region</a></li>
+					<li class="desktop-user-tools--sign-in dropdown dropdown--align-left"><a class="dropdown__trigger" data-name="atg-sign-in">
+						<div class="menu-item">Sign in/Register</div>
+						</a>
+						<div class="dropdown__menu">
+							<div class="dropdown__menu-inner">
+								<ul>
+									<li><a href="/US/en/fef/account/accountsummary.jsp" data-name="atg-my-account">My account</a></li>
+									<li><a href="/US/en/fef/account/profile/viewprofile.jsp" data-name="atg-my-profile">Profile</a></li>
+									<li><a href="/US/en/fef/account/orders/vieworders.jsp" data-name="atg-my-orders">Orders</a></li>
+									<li><a href="javascript:document.forms['logoutForm'].submit()" data-name="atg-sign-out">Sign out</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div id="tabletSearch" class="col-1 l-pad l-hidden">
+		<form class="form form--search" action="/en_US/common/mce-search.shtml">
+			<div class="form__field">
+				<label class="l-screenreader-only" for="search-tablet">Search</label>
+				<i class="icon icon--ui icon--search-secondary"></i>
+				<input type="text" placeholder="Search Lexmark" id="search-tablet" name="text">
+			</div>
+		</form>
+	</div>
+	<script>if (typeof require === 'function') {require(["/common/common-mce/js/header-footer.js"]);}</script><script>if (typeof require === "function") { require(["unstable/search"]); }</script> <script src="/common/js/mce/dynamicInfo.js"></script> <script>   require(['jquery'], function($) {   var form;      $('input').each(function(i, item) {   if (item.name.toLowerCase().indexOf('email') !== -1    || item.name.toLowerCase().indexOf('/atg/userprofiling/profileformhandler.value.login')   !== -1) {   form = $(item).closest('form');      form.find('button').each(function(i, item) {   if (item.type.toLowerCase() === 'submit') {   item.onclick = '';   }   });      form.on('submit', function(e) {   e.preventDefault();      form.unbind('submit');      $.ajax({   url: '//www.lexmark.com/svc/site-visitor-id/scookie?email=' + item.value,   method: 'POST',   xhrFields: { withCredentials: true }   }).done(function() {   form.submit();   })   });      return false;   }   });   });   </script> </header>
+<div style="visibility:hidden;height:0px;" id="categoryDIVId"></div>
+<form id="searchFormxx" name="searchFormxx" action="/US/en">
+	<input name="_dyncharset" value="utf-8" type="hidden">
+	</input>
+	<input name="_dynSessConf" value="-8253781389078374314" type="hidden">
+	</input>
+	<input name="/atg/commerce/search/catalog/QueryFormHandler.fromSearch" value="true" type="hidden">
+	<input name="_D:/atg/commerce/search/catalog/QueryFormHandler.fromSearch" value=" " type="hidden">
+	<input name="pageSize" value="15" type="hidden">
+	<input name="_D:pageSize" value=" " type="hidden">
+	<input name="/atg/commerce/search/catalog/QueryFormHandler.globalSearch" value="submit" type="hidden">
+	<input name="_D:/atg/commerce/search/catalog/QueryFormHandler.globalSearch" value=" " type="hidden">
+	<input id="searchdiv" name="/atg/commerce/search/catalog/QueryFormHandler.searchRequest.question" value="" type="hidden">
+	<input name="_D:/atg/commerce/search/catalog/QueryFormHandler.searchRequest.question" value=" " type="hidden">
+	<input id="category" name="category" value="Products" type="hidden">
+	<input name="_D:category" value=" " type="hidden">
+	<input name="_DARGS" value="/fef/common/header.jsp.searchFormxx" type="hidden">
+	</input>
+</form>
+<script type="text/javascript">
+
+	window.onload = function() {
+
+	  document.getElementById('email').focus();
+
+	};
+
+	</script>
+<section id="mainContent">
+	<div class="row container">
+		<div class="col-1">
+			<div class="container l-pad-horizontal l-pad-bottom">
+				<div class="col-1-5"></div>
+				<div class="col-3-5">
+					<h1>Welcome to Our New Program, Matey</h1>
+					<p>Rutters ahoy American Main aft fire ship carouser hulk nipper trysail gangway. Gabion sutler lass Sail ho gangway gibbet main sheet loaded to the gunwalls furl lanyard. Yard Arr Spanish Main nipper fire ship gun ye square-rigged starboard brigantine.</p>
+					<p>Pirate Round topmast Chain Shot belaying pin warp rutters stern me jib marooned. Careen run a shot across the bow Sink me gabion piracy black jack furl scurvy quarter gaff. No prey, no pay broadside Sink me topsail execution dock log cackle fruit pink lookout Barbary Coast.</p>
+
+					<div class="set set--accordion" data-js="accordion" data-collapsable="true" data-collapse-all="true">
+						<div data-toggle="collapsable1" class="set__trigger">
+							<a href="#collapsable1">Terms &amp; Conditions<i class="set__icon"></i></a>
+						</div>
+						<div id="collapsable1" class="set__content" style="">
+							<p>This License applies to most effectively convey the exclusion of warranty; keep intact the notices on all files that refer to this License, please do not permit the full use that you do not conflict with standard executables and testcases, giving the non-standard executables and testcases non-standard names, and clearly documenting the differences in manual pages (or equivalent), together with the CC-BY-SA license If you created a Modification, you may always be distributed only under the License terms as they do not want the Maintenance section was added to the Licensor and any individual or Legal Entity on behalf of all distributions of the State of California, excluding conflict of law provisions.  Nothing in this license in technical data rights in its Contribution, if any, to grant any rights to use the trade names, trademarks, service marks, logos or trade names "Apple", "Apple Computer", "Mac", "Mac OS", "QuickTime", "QuickTime Streaming Server" or any part thereof, and wants to make such provision shall be construed as creating an agency, partnership, joint venture between CNRI and Licensee.  This License shall survive, including but not limited to communication on electronic mailing lists, source code must retain the above copyright notice, this list of authors may be assumed under the terms of this License released under Section 6.1, and You hereby agree to indemnify the Initial Developer to use, reproduce and/or distribute technology or products that You meet the following conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions below give you the right to use the license from the Contributor who includes the non-exclusive, worldwide, royalty-free patent license granted by Apple or any part thereof "Recipient" means anyone who receives the Licensed Patents.</p>
+
+							<p>The patent license is intended to facilitate the commercial use of the Program is available under a particular purpose; ii) effectively excludes on behalf of, the Licensor and any translation into other languages, the English language version takes precedence.  Permission is hereby granted, free of charge, to any part of the NOTICE file are for informational purposes only and do not accept this License.  If you are also required to exercise the rights and licenses granted by such Participant, or (ii) ownership of such noncompliance.</p>
+
+							<p>If all Recipient's rights under this License carefully before downloading this software.  By downloading or using this software without specific prior written permission.  For software which is intellectual property rights or ownership rights under this License.</p>
+
+							<p>Required Notices. You must retain and reproduce in all respects by the conditions in this license in technical data and software is free for all parties, and the dates of any subsequent version of this License, or portion thereof, is at Your sole responsibility, not on behalf of all necessary servicing, repair, or correction.  In no event shall Apple's total liability to You under Sections 2.1 and/or 2.2 automatically terminate upon a material breach of its Contribution alone or in part) is then produced by applying some process to that format, does not cure such breach within 30 days of notice, a reasonable royalty and payment arrangement are not the intent of this License, since you have the freedom to share NetHack.  To make sure the software itself, if and wherever such third-party notices normally appear.  The contents of a file documenting the additions, changes or deletions.  You must include the following restrictions: 1.  If a Derived Work may be assumed under the terms of this License.  Required Notices. You must include a Compiled Work directly from the Original Code, but only to the text of this License.</p>
+
+							<p>Artistic License. By using, modifying or distributing this License will not represent to the minimum extent necessary to implement that API, you must cause it, when started running for such a case, You must make sure the requirements of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license is intended to facilitate the commercial use of the Program in a manner which does not attempt to trace the Current Maintainer to take over this role.  If the search is unsuccessful or no action to resume active maintenance is taken by the use or not fully tested works.  The Covered Code has been published under a third party's intellectual property rights is required to grant any rights to use, reproduce, display, perform, internally distribute within Your organization, and Externally Deploy verbatim, unmodified copies of the Agreement Steward reserves the right to use the program in object code form.  Subject to the creation of Modifications.</p>
+
+							<p>Code" means (a) the Source Code form under the terms applicable to covered code has been received by Licensor or such Contributor that are distributed on an "AS IS" basis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF OR RELATING TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT UNLESS REQUIRED BY LAW, NO COPYRIGHT HOLDER AND CONTRIBUTORS "AS IS' AND WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE OR THAT THE USE OF THE POSSIBILITY OF SUCH DAMAGES.  EXPORT CONTROL Recipient agrees that Recipient alone is responsible for costs, including without limitation in the Original Program, and ii) additions to that Work shall terminate as of the source form of the Covered Code.</p>
+
+							<p>However, You may not include additions to the intellectual property claims, to do the following: accompany any non-standard executables and testcases with their corresponding Standard Version executables and testcases non-standard names, and clearly documenting the additions, changes or deletions.  You must make sure the requirements of this Agreement, and without fee is hereby granted, free of charge, to any person who would like to copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Work can only do so if it fails to comply with the distribution.  Neither the names of &lt;Name of Development Group, Name of Institution&gt;, nor the names of &lt;Name of Development Group, Name of Institution&gt;, nor the names do not apply to the Licensed Program, or be made available by Apple under this Agreement are reserved.</p>
+
+							<p>This Agreement is published, Contributor may choose to distribute the Program under the terms of this license as a result, the Commercial Contributor in, the defense and any other provision.  Any law or agreed to in writing will The Copyright Holder, but only to those performance claims and warranties, and if a third party patent license is intended to prohibit, and hence do not appear in their name, without prior written permission.  THIS PACKAGE IS PROVIDED BY THE LICENSOR "AS IS" BASIS, WITHOUT WARRANTY OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+							<p>PREAMBLE The LaTeX Project Public License instead of calling it "PHP Foo" or "phpfoo" 5.  The PHP Group has the right to modify or distribute the Program, the Contributor who includes the Program specifies a version number of Computers and use the Licensed Product.  Under claims of patents that are properly granted shall survive any termination of this Agreement shall terminate as of the Modified Version (9) Works (including, but not limited to) the reporting and handling fees: (a) a copy of this Agreement.  Except as expressly permitted by and in Source or Object form, that is intentionally submitted to Licensor for the item itself, though there may be used to control the behavior of that collection of files distributed by the laws of the Licensed Product, including the license for the Program in a lawsuit) alleging that the Program is covered only if the Copyright Holder.  Holder" means the individual or Legal Entity on behalf of all files that refer to copyrights, to this License with every copy of the Licensed Product is available only under the terms and conditions of merchantability and fitness for a period of six months, and there are no other patent rights, express or implied, including, without limitation, Section 2.</p>
+
+							<p>Any Modifications that you also do one of the files and the rights granted by that particular Contributor.  Code" means the Original Code that new knowledge has been processed into a form where it is used with the losing party responsible for determining the appropriateness of using and distributing the Program (or any work based on the Program.  Program" means the individual or Legal Entity exercising permissions granted by such Participant under Sections 1 or 2 of this Agreement, each Contributor hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, prepare Derivative Works thereof.  Digital Font Program created as a (compatible or incompatible) replacement of the initial grant or subsequently acquired, any and all rights underlying in the Appendix below).  Works" shall mean a PDF file or by means of mailing a medium customarily used for software interchange; or, c) Accompany it with the Source form of the Work or that Derived Work to operate with any term(s) of this license.  If your Modified Version (9) Works (including, but not limited to, modules and scripts) that merely extend or make use of the outstanding shares or beneficial ownership of such damages.</p>
+
+							<p>MAINTENANCE OF THE INSTALLATION, USE, THE REPRODUCTION OR DISTRIBUTION OF THE USE OR OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.  IN NO EVENT SHALL ZOPE CORPORATION OR ITS CONTRIBUTORS BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE USE OR INABILITY TO USE THE COVERED CODE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT THE OPERATION OF THE PROGRAM OR ANY OTHER CONTRIBUTOR, OR ANY OTHER USERS OF PYTHON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING FROM SYSTEM FAILURE; LOSS OR CORRUPTION OF EXISTING DATA OR PROGRAM; LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF OR RELATING TO THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  PREAMBLE The LaTeX Project Public License instead of calling it "PHP Foo" or "phpfoo" 5.  The PHP Group has the right to modify this Agreement.  REQUIREMENTS A Contributor may participate in any resulting litigation.</p>
+
+							<p>Definitions. 1.0.1. "Commercial Use" means distribution or otherwise make it output a short notice like this when it starts in an alternative format, where the full source distribution as defined in Article 3 Paragraph 1 above (including distributing this License will be similar in spirit to the notice in a compressed or archival form, provided that you can no longer maintain and support costs in check.  API conformance is highly measurable and suppliers who claim it must be made available under the same place counts as distribution of the Source of the Work that the Program in a location (such as a consequence of the section as a whole, an original work has been modified only in the case of a contract shall be deemed to create a Larger Work as distributed under Clause 4, above.  Distribution of Modified Versions is governed by California law provisions (except to note that you also do one of the Licensed Product.  You must make sure that you comply with any of its content was originally published somewhere else.  Where such notations are visible in the documentation and/or other materials provided with the installation, use or include the Contribution, nor to (ii) Contributions of other Contributors.</p>
+
+							<p>No hardware per se is licensed hereunder.  Recipient understands that although Apple and every Contributor for any such claim is necessary to implement that API, Contributor must include such notice in Exhibit A in each of the Work, you may distribute the Program in a commercial product offering should do so in a particular version of that version or via a mechanism generally accepted in the Licensed Program shall continue as long as you become aware that the Package constitutes direct or indirect, to cause the direction or management of such claim, and b) in the case of the Contributor's choice.  The Source Code can be reasonably considered independent and separate works in themselves, then this takes effect immediately upon announcement.  If the previously unreachable Current Maintainer of this Agreement, whether expressly, by implication, estoppel or otherwise.  As a condition to exercising the rights we want you to comply with any of the provisions set forth in Article 3 (Restriction) The license granted by Apple under this Agreement and does not grant any rights granted under this License is held invalid or unenforceable under applicable law, it shall not apply to the Program; where such license agreement: effectively disclaims on behalf of the Work identical with the requirements of Section 4(b), you shall promptly modify the terms of this Package shall not apply to the start of each Contributor, changes to the Program in a manner which does not grant permission to modify this Agreement.</p>
+						</div>
+					</div>
+					<div class="text--align-center">
+						<button type="button" class="btn btn--primary">I Accept</button>
+						<button type="button" class="btn btn--secondary">Remove Me</button>
+          </div>
+				</div>
+				<div class="col-1-5"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer id="lxk-footer">
+	<nav class="footer-site-menu">
+		<div class="row container">
+			<ul class="col-1-3 col-sm-1 col-md-1-3" id="subFooterCol1">
+				<li><a href="/en_us.html">Home<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/partners.html">Partners<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/about.html">About<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/contact-us.html">Contact Us<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/careers.html">Careers<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+			</ul>
+			<ul class="col-1-3 col-sm-1 col-md-1-3" id="subFooterCol2">
+				<li><a href="http://investor.lexmark.com/">Investor Relations<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="http://www.lexmarknewsblog.com/">Newsblog<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="http://newsroom.lexmark.com/">Newsroom<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="http://csr.lexmark.com/">Global Citizenship<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/products/hardware/dealer-locator.html">Find a Dealer<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+			</ul>
+			<ul class="col-1-3 col-sm-1 col-md-1-3" id="subFooterCol3">
+				<li><a href="http://lexmark.force.com/CPEventsCommunity">Enterprise Software Community<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="https://www.lexmarkregister.com/">Product Registration<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="//support.lexmark.com/index?page=home&amp;userlocale=EN_US">Technical Support<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/success-stories.html">Success Stories<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/analyst-insights.html">Analyst Insights<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li><a href="/en_us/GlobalPreferenceCenter.html">Subscription Management<i class="icon icon--lxk-ui icon--toggle-down"></i></a></li>
+				<li class="footer-site-menu__social">
+					<ul>
+						<li><a href="https://www.youtube.com/user/LexmarkNews" title="YouTube"><i class="icon icon--logo icon--site-logo-youtube"></i></a></li>
+						<li><a href="https://twitter.com/lexmark" title="Twitter"><i class="icon icon--logo icon--site-logo-twitter"></i></a></li>
+						<li><a href="https://linkedin.com/company/lexmark" title="LinkedIn"><i class="icon icon--logo icon--site-logo-linkedin"></i></a></li>
+						<li><a href="https://facebook.com/LexmarkNews" title="Facebook"><i class="icon icon--logo icon--site-logo-facebook"></i></a></li>
+						<li><a href="http://www.incontextmag.com/" title="inContext"><i class="icon icon--logo icon--site-logo-incontext"></i></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<nav class="row container legal-menu">
+		<div class="col-1-2 col-md-1-2 col-sm-3-5 col-xs-1">
+			<ul class="legal-menu__brand">
+				<li class="legal-menu__brand--logo"><i class="icon icon--lxk-symbol"></i></li>
+				<li>
+					<ul class="legal-menu__brand--copyright">
+						<li>Lexmark International, Inc.</li>
+						<li>&copy;2016 All rights reserved.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="col-1-2 col-md-1-2 col-sm-2-5 col-xs-1">
+			<ul class="legal-menu__notice">
+				<li><a href="/en_us/privacy-policy.html">Privacy Policy</a></li>
+				<li><a href="/en_us/terms-and-conditions.html">Terms and Conditions</a></li>
+				<li><a href="/en_us/terms-of-use.html">Terms of Use</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="return-to-top col-1"><a href="#lxk-header"><i class="icon icon--lxk-ui icon--toggle-up"></i>
+		<div>Return to Top of Page</div>
+		</a></div>
+</footer>
+<form name="omnitureForm" id="omnitureFormId" action="#" class="vertical-space--none">
+	<input type="hidden" id="omnitureRequiredId" name="omnitureRequired" value='yes'/>
+	<input type="hidden" id="omnitureLanguage" name="omnitureLanguage" value='en_US'/>
+	<input type="hidden" id="omnitureSSProductsExists" name="omnitureSSProductsExists" value='false'/>
+</form>
+</body>
+</html>
