@@ -563,7 +563,7 @@ _marinTrack.trackPage();
 	<div class="row container l-pad-thick">
 		<div class="col-1">
 			<header>
-				<h1 class="l-pad-bottom-thin">Welcome to Lexmark</h1>
+				<h1 class="l-pad-bottom-thin">Sign in to Lexmark</h1>
 			</header>
 			<div class="row container l-pad" role="main"><!-- BEGIN main -->
 				
