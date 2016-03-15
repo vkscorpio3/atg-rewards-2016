@@ -1,0 +1,73 @@
+/* cart-revised.shtml ATG styles */
+
+.hidden-element {
+	display:none;
+}
+.table--cart th {
+	padding:12px 20px 12px 10px;
+}
+.table--cart th:first-child {
+	padding:12px 20px;
+}
+.table--cart td {
+	padding:15px 10px 5px 10px;
+}
+.table--cart .form__field {
+	margin-bottom:0;
+}
+.table--cart__item {
+	min-width: 100%;
+}
+.table--cart__quantity {
+	min-width: 100%;
+}
+.table--cart__price {
+	min-width: 210px;
+}
+.table--cart__total {
+	min-width: 100%;
+}
+.cart-amount {
+	font-size: 1.2em;
+}
+.cart-amount--discount {
+	font-size: 1em;
+	font-style: italic;
+}
+.promotions-applied {
+	padding-left:10px;
+}
+.promotions-list {
+	margin:0;
+	padding:0;
+}
+.promotions-list li {
+	list-style: none;
+	padding:0px 0px 10px 0px;
+	margin-bottom:0;
+}
+.promotions-list--title {
+	font-style: italic;
+}
+.promotions-list--description {
+	font-style: italic;
+}
+.cart-summary {
+	margin:0;
+	padding:0;
+}
+.cart-summary li {
+	list-style: none;
+	padding:20px;
+	border-top: 1px solid #dedede;
+	margin-bottom:0;
+}
+.cart-summary li:last-child {
+	border:none;
+}
+.cart-summary li:last-child h4 {
+	margin:0;
+}
+.cart-summary--discount {
+	font-style: italic;
+}
