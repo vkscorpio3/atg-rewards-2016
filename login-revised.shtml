@@ -603,7 +603,7 @@ _marinTrack.trackPage();
 											<input type="checkbox" id="rememberMe" name="rememberMe" data-js="customInput" onchange="javascript:document.getElementById('rememberMeHidden').value=this.checked;" checked="checked" />
 											<label for="rememberMe">Remember Me </label>
 										</div>
-										<button onclick="javascript:document.loginForm.submit();" type="submit" class="btn btn--primary"><i class="icon icon--ui icon--lock-light"></i> Sign In</button>
+										<button onclick="javascript:document.loginForm.submit();" type="submit" class="btn btn--primary">Sign In</button>
 										<input name="/atg/userprofiling/ProfileFormHandler.login" value="" type="hidden">
 										<input name="_D:/atg/userprofiling/ProfileFormHandler.login" value=" " type="hidden">
 									</div>
