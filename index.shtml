@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7 lte9 lte8 lte7 no-js" lang="en"><![endif]--><!--[if IE 8]><html class="ie ie8 lte9 lte8 no-js"><![endif]--><!--[if IE 9]><html class="ie ie9 lte9 no-js"><![endif]--><!--[if gt IE 9]><html class="no-js"><![endif]--><!--[if !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>ATG Rewards Pages | Lexmark</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <!--#include virtual="/en_US/common/head.html"-->
+</head>
+<body>
+  <!--#include virtual="/en_US/common/mce-header.html"-->
+
+  <section id="mainContent">
+		<div class="row container l-pad" role="main">
+			<div class="col-1">
+
+				<h1>ATG Rewards Pages</h1>
+
+				<table class="table table--bordered table--condensed table--hover table--responsive" data-js="responsive-table">
+					<thead>
+						<tr>
+							<th>Page Title</th>
+							<th>Original</th>
+							<th>Prototype</th>
+							<th>HTML Source</th>
+							<th>CSS Source</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Cart</td>
+							<td><a href="http://www.lexmark.com/en_US/test/rewards-atg/cart-original.shtml" title="cart-original.shtml">cart-original.shtml</a></td>
+							<td><a href="http://www.lexmark.com/en_US/test/rewards-atg/cart-revised.shtml" title="cart-revised.shtml">cart-revised.shtml</a></td>
+							<td><a href="https://github.com/chazelex/atg-rewards-2016/commit/c6211babb3ab1276cb02c7099b8db0bcdef5d1ea" title="Github HTML source">Github HTML source</a></td>
+							<td><a href="https://github.com/chazelex/atg-rewards-2016/blob/revisions/cart-revised.css" title="Github HTML source">Github CSS source</a></td>
+						</tr>
+						<tr>
+							<td>Login</td>
+							<td><a href="http://www.lexmark.com/en_US/test/rewards-atg/login-original.shtml" title="login-original.shtml">login-original.shtml</a></td>
+							<td><a href="http://www.lexmark.com/en_US/test/rewards-atg/login-revised.shtml" title="login-revised.shtml">login-revised.shtml</a></td>
+							<td><div><a href="https://github.com/chazelex/atg-rewards-2016/commit/3472a026b4de6a68d78a4cfd3a0d04b03eab8e45" title="Github HTML source 1">Github HTML source 1</a></div><div><a href="https://github.com/chazelex/atg-rewards-2016/commit/f6905b0b0f420fd8a12ec0c90b1e3587866ec823" title="Github HTML source 2">Github HTML source 2</a></div></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Rewards Page</td>
+							<td><a href="http://www.lexmark.com/en_US/test/rewards-atg/rewards-page.shtml" title="rewards-page.shtml">rewards-page.shtml</a></td>
+							<td></td>
+							<td><div><a href="https://github.com/chazelex/atg-rewards-2016/blob/revisions/rewards-page.shtml" title="Github HTML source">Github HTML source</a></div></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Sign In Message Page</td>
+							<td><a href="http://www.lexmark.com/en_US/test/rewards-atg/sign-in-message-scrollbar.shtml" title="sign-in-message-scrollbar.shtml">sign-in-message-scrollbar.shtml</a></td>
+							<td></td>
+							<td><div><a href="https://github.com/chazelex/atg-rewards-2016/blob/revisions/sign-in-message-scrollbar.shtml" title="Github HTML source">Github HTML source</a></div></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+
+		</div>
+	</section>
+
+  <!--#include virtual="/en_US/common/mce-footer.html"-->
+  <script src="/common/common-mce/js/config.js"></script>
+</body>
+</html>
