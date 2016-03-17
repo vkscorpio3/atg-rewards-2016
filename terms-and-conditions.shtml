@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7 lte9 lte8 lte7 no-js" lang="en"><![endif]--><!--[if IE 8]><html class="ie ie8 lte9 lte8 no-js"><![endif]--><!--[if IE 9]><html class="ie ie9 lte9 no-js"><![endif]--><!--[if gt IE 9]><html class="no-js"><![endif]--><!--[if !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>ATG Rewards Pages | Lexmark</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <!--#include virtual="/en_US/common/head.html"-->
+</head>
+<body>
+  <!--#include virtual="/en_US/common/mce-header.html"-->
+
+  <section id="mainContent">
+		<div class="row container l-pad" role="main">
+			<div class="col-1">
+
+				<!--#include virtual="/en_US/mce-fragments/rewards-program/terms-and-conditions.shtml"-->
+
+			</div>
+
+		</div>
+	</section>
+
+  <!--#include virtual="/en_US/common/mce-footer.html"-->
+  <script src="/common/common-mce/js/config.js"></script>
+</body>
+</html>
