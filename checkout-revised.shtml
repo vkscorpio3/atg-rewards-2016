@@ -70,6 +70,10 @@
 
 				href="/common/common-mce/styles/css/v2/checkout.css" />
 
+<!-- CSS Revisions for ATG stylesheet - BEGIN -->
+<link rel="stylesheet" href="checkout-revised.css" />
+<!-- CSS Revisions for ATG stylesheet - END -->
+
 <!--[if IE]>
 
 		            			<link rel="stylesheet" href="/common/css/ie.css" type="text/css" media="all" charset="utf-8" />
@@ -187,12 +191,12 @@ _marinTrack.trackPage();
 			</header>
 		</div>
 		<div class="row">
-			<div class="col-2-3 l-alley-both-thick" id="shipping"> <span name="errorMessage22" id="errorMessage22" style="color:red;display:none"></span> 
+			<div class="col-2-3 l-alley-both-thick bg--n1" id="shipping"> <span name="errorMessage22" id="errorMessage22" style="color:red;display:none"></span> 
 				
 				<!-- This droplet is for prepopulating the values, when anonymous user has alredy shipping and billing info in Order  -->
 				
 				<div class="l-pad-top">
-					<h2>Shipping</h2>
+					<h2 class="text--semi-bold text--black">Shipping</h2>
 				</div>
 				<form name="populateshippingform" action="/US/en/fef/checkout/shipping.jsp?_DARGS=/fef/checkout/includes/loggedInUserShippingcontent.jsp.populateshippingform" method="post">
 					<input name="_dyncharset" value="UTF-8" type="hidden">
@@ -205,8 +209,8 @@ _marinTrack.trackPage();
 					<input name="_D:moveToBillingErrorURL" value=" " type="hidden">
 					<input type="hidden" name="pageparam" id="pageparam" value="goback"/>
 					<input type="hidden" name="locale" id="locale" value="en_US"/>
-					<h3>Shipping Address</h3>
-					<table class="table table--even" style="margin-bottom:0;">
+					<h3 class="text--black">Shipping Address</h3>
+					<table class="table">
 						<tbody>
 							
 							<!-- starting of 1st time --> 
@@ -394,11 +398,11 @@ _marinTrack.trackPage();
 								
 								<!--  checking country subdivision is optional or not -->
 								
-								<div class="form__field form__field--required">
+								<div class="form__field form__field--select form__field--required">
 									<label for="shippingAddressState"> State </label>
 									<input name="_D:shippingAddressState" value=" " type="hidden">
 									</input>
-									<select id="shippingAddressState" name="shippingAddressState" class="input required" onchange="autochangeshippingmethods(this.options[this.selectedIndex].value, 'US/en')">
+									<select id="shippingAddressState" name="shippingAddressState" class="input required" onchange="autochangeshippingmethods(this.options[this.selectedIndex].value, 'US/en')" data-js="customSelect">
 										<option value=""> Select State
 										<option value="AL"> Alabama
 										<option value="AK"> Alaska
@@ -491,13 +495,13 @@ _marinTrack.trackPage();
 						
 						<!-- *** start shipping selection *** -->
 						
-						<div class="col-1 l-pad-top"> 
+						<div class="col-1 l-pad-top l-pad-bottom"> 
 							
 							<!-- *** start shipping selection *** --> 
 							
 							<!-- Displaying AvailableShippingMethods Droplet -->
 							
-							<h3>Select Shipping Method</h3>
+							<h3 class="text--black">Select Shipping Method</h3>
 							<div class="form__field form__field--radio">
 								<input id="totalprice" name="totalprice" value="1950.84" type="hidden">
 								<input name="_D:totalprice" value=" " type="hidden">
@@ -507,14 +511,10 @@ _marinTrack.trackPage();
 								<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.shippingMethod" value=" " type="hidden">
 								<input name="selecteMethod"  id='radio100002' type="radio"  value='Standard' data-js="customInput"/>
 								
-								<!-- if shipping price is 0 display as FREE -->
+								<!-- Rewards ATG shippping line -->
 								
-								<label for='radio100002'><strong> Free </strong> </label>
-								
-								<!-- if shipping price is 0 display as FREE --> 
-								
-								Standard <span class="duration">(3-8 Business Days)</span>
-								</label>
+								<span class="text--b4"><label for="radio100002"><span></span> <strong>FREE</strong> Standard Shipping (3-8 business days) for Rewards Members</label></span>
+
 							</div>
 							<div class="form__field form__field--radio">
 								<input id="totalprice" name="totalprice" value="1950.84" type="hidden">
@@ -551,7 +551,6 @@ _marinTrack.trackPage();
 							
 							<!-- *** end shipping selection *** -->
 							
-							<hr />
 							<input name="/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling" value="submit" type="hidden">
 							<input name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling" value=" " type="hidden">
 							<input type="hidden" name="handleAction" value="" id="handleAction"/>
@@ -587,8 +586,10 @@ _marinTrack.trackPage();
 
 	   </script>
 							<input type="hidden" name="fefShippingAddress" id="fefShippingAddress" value=""/>
-							<div class="l-pad-bottom">
-								<button onclick="javascript:formsubmit();" class="btn l-push">Ship to this Address</button>
+						</div>
+						<div class="col-1 l-pad-bottom-thin">
+							<div>
+								<button onclick="javascript:formsubmit();" class="btn btn--primary">Ship to this Address</button>
 							</div>
 						</div>
 					</div>
@@ -904,21 +905,33 @@ function editAddress(intValue)
 			<aside class="col-1-3 l-alley-before"> 
 				
 				<!-- getting the site region code -->
-				
-				<h3> Cart Summary </h3>
-				<dl class="cart-summary">
-					<dt> <dfn>Order Subtotal <sup>&dagger;</sup></dfn> </dt>
-					<dd> <strong>$2,786.92</strong> </dd>
-					<dt> <dfn>Discounts<sup>&dagger;</sup></dfn> </dt>
-					<dd> <strong> -$836.08 </strong> </dd>
-					<dt> <dfn>Shipping &amp; Handling<sup>&dagger;</sup></dfn> </dt>
-					<dd> ---- </dd>
-					<dt> <dfn>Taxes<sup>&dagger;</sup></dfn> </dt>
-					<dd> ---- </dd>
-					<dt> <dfn><strong class="total">Total<sup>&dagger;</sup></strong></dfn> </dt>
-					<dd> <strong class="total  total--amount">$1,950.84</strong> </dd>
-				</dl>
-				<p class="description"><sup>&dagger;</sup>Subtotal is in US Dollars (Excluding Tax and Shipping). Final order amounts, including tax and exact shipping, will be communicated during Checkout. Promotional offers and prices are for a limited time. All prices are in US Dollars. Products are available for purchase by US customers who take delivery in the US.</p>
+
+				<h4 class="text--semi-bold">Cart Summary</h4>
+				<ul class="cart-summary">
+					<li class="row">
+						<div class="col-sm-1-2 col-xs-1-2">Subtotal:</div>
+						<div class="col-sm-1-2 col-xs-1-2 text--align-reverse">$2,786.92</div>
+					</li>
+					<li class="row">
+						<div class="col-sm-1-2 col-xs-1-2">Discounts:</div>
+						<div class="col-sm-1-2 col-xs-1-2 text--align-reverse">-$836.08</div>
+						<div class="col-1 text--small cart-summary--discount">Rewards Member Discount - 15% off supplies</div>
+					</li>
+					<li class="row">
+						<div class="col-sm-1-2 col-xs-1-2">Estimated Shipping:</div>
+						<div class="col-sm-1-2 col-xs-1-2 text--align-reverse">FREE</div>
+					</li>
+					<li class="row">
+						<div class="col-sm-1-2 col-xs-1-2">Taxes:</div>
+						<div class="col-sm-1-2 col-xs-1-2 text--align-reverse">----</div>
+					</li>
+					<li class="row bg--n1">
+						<div class="col-sm-1-2 col-xs-1-2"><h4 class="text--semi-bold">Estimated Total<sup>&dagger;</sup>:</h4></div>
+						<div class="col-sm-1-2 col-xs-1-2"><h4 class="text--semi-bold text--align-reverse text--b9">$1,950.84</h4></div>
+					</li>
+				</ul>
+				<p class="description l-pad-top-thin l-pad-bottom-thin"><sup>&dagger;</sup>Final order amounts, including tax and exact shipping, will be communicated during Checkout. All prices are in US Dollars. Products are available for purchase by US customers who take delivery in the US.</p>
+
 			</aside>
 		</div>
 	</article>

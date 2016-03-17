@@ -1,0 +1,41 @@
+/* checkout-revised.shtml ATG styles */
+
+.step li:before {
+  color: #7e7e85; /* number */
+  background-color: #e6e6f0; /* circle */
+}
+.step li:after {
+  background-color: #e6e6f0; /* line */
+}
+
+.step li.step--is-active:before,
+.step li.step--is-complete:before,
+.step li.step--is-active:after,
+.step li.step--is-complete:after {
+  background-color: #00ad21; /* circle and line */
+  color: #ffffff; /* number */
+}
+#shipping .table td,
+#shipping .table th {
+  padding:0;
+  border:none;
+}
+.cart-summary {
+  margin:0;
+  padding:0;
+}
+.cart-summary li {
+  list-style: none;
+  padding:20px;
+  border-top: 1px solid #dedede;
+  margin-bottom:0;
+}
+.cart-summary li:last-child {
+  border:none;
+}
+.cart-summary li:last-child h4 {
+  margin:0;
+}
+.cart-summary--discount {
+  font-style: italic;
+}
